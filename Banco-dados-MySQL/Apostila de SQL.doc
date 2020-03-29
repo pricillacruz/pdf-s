@@ -1,0 +1,3821 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1046{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq3{\*\panose 020b0604030504040204}Tahoma;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}{\s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang1046\cgrid \sbasedon0 \snext15 Plain Text;}}{\*\listtable{\list\listtemplateid68550657\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid111292073}{\list\listtemplateid690898746\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat5\levelspace0\levelindent0{\leveltext\'01\'00;}{\levelnumbers\'01;}\fbias0 \fi-435\li735\jclisttab\tx735 }{\listname ;}\listid492180664}{\list\listtemplateid68550657\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid894243042}}{\*\listoverridetable{\listoverride\listid111292073\listoverridecount0\ls1}{\listoverride\listid894243042\listoverridecount0\ls2}{\listoverride\listid492180664\listoverridecount0\ls3}}{\*\revtbl {Unknown;}}{\info{\title A FINALIDADE DOS EXEMPLOS ABAIXO É MOSTRAR COMO FAZER PARA}{\author SSPES}{\operator SSPES}{\creatim\yr1998\mo1\dy29\hr17\min50}{\revtim\yr1998\mo1\dy29\hr17\min50}{\version2}{\edmins0}{\nofpages105}{\nofwords18234}{\nofchars103936}{\*\company C INFOR NR 11}{\nofcharsws127640}{\vern73}}\margl1701\margr1701\margt1417\margb1417 \deftab708\widowctrl\ftnbj\aenddoc\hyphhotz425\formshade\viewkind1\viewscale75\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang1046\cgrid {\fs24 
+\par 
+\par }{\fs24\ul 
+\par APOSTILA DE SQL
+\par }{\fs24 
+\par 
+\par 
+\par 
+\par     
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O objetivo da Apostila é trazer os principais comandos SQL usados em aplicações ORACLE, com exemplos, comentários e explicações.\page 
+\par 
+\par }{\b\fs24 FINALIDADE DO CAPITULO:
+\par }{\fs24 
+\par }\pard \s15\fi708\nowidctlpar\widctlpar\adjustright {\fs24 No final deste capitulo você será capaz de criar scripts permitindo que o usuário entre com valores diversos.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi708\nowidctlpar\widctlpar\adjustright {\fs24 A finalidade dos exemplos abaixo é demostrar como permitir que o usuário entre com os valores que possibilitem a  execução de um comando }{\b\fs24 SQL}{\fs24 , isso tudo em tempo de execução.
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Verifique o uso do }{\b\fs24 "&"}{\fs24  que permite  que o usuário entre com dados. No exemplo abaixo temos um pedido de entrada de um numero, por isso é que o }{\b\fs24 &numero_do_dept }{\fs24 não está entre aspas. Podemos notar também que aparece o }{\b\fs24 old }{\fs24 valor e o }{\b\fs24 new }{\fs24 valor, isso é devido ao cmdo }{\b\fs24 set verify on}{\fs24 , se quisermos que não apareça, devemos  usar o }{\b\fs24 set verify off}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> set verify on
+\par SQL> select id,last_name,salary
+\par   2  from   s_emp
+\par   3  where  dept_id=&numero_do_dept;
+\par Enter value for numero_do_dept: 31
+\par old   3: where  dept_id=&numero_do_dept
+\par new   3: where  dept_id=31
+\par 
+\par        ID LAST_NAME                    SALARY
+\par --------- ------------------------- ---------
+\par         3 Nagayama                       1400
+\par        11 Magee                          1400
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora não aparecerá o new e old valor porque estamos usando o }{\b\fs24 SET VERIFY OFF.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> set verify off
+\par SQL> select id,last_name,salary
+\par   2  from   s_emp
+\par   3  where  dept_id=&numero_do_dept;
+\par Enter value for numero_do_dept: 31
+\par 
+\par        ID LAST_NAME                    SALARY
+\par --------- ------------------------- ---------
+\par         3 Nagayama                       1400
+\par        11 Magee                          1400
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vimos anteriormente como que temos que proceder para que o usuário entre com valores numéricos, para que seja realizada
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 uma pesquisa, agora vamos possibilitar que o usuário ente com valores do tipo caracter, a principal diferença é o uso das aspas, mas temos que ter atenção  para o formato na hora de digitarmos, porque tem que ser o mesmo do conteúdo que está na tabela, com maiúsculas e minúsculas.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select id,last_name,salary
+\par   2  from s_emp
+\par   3  where title ='&job_title';    \{}{\i\fs24 possibilitando que o 
+\par }\pard \s15\li4962\nowidctlpar\widctlpar\adjustright {\i\fs24 usuário entre com o nome do title}{\fs24 \}
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Enter value for job_title: Stock Clerk
+\par 
+\par        ID LAST_NAME                    SALARY
+\par --------- ------------------------- ---------
+\par        16 Maduro                         1400
+\par        17 Smith                           940
+\par        18 Nozaki                         1200
+\par        19 Patel                           795
+\par        20 Newman                          750
+\par        21 Markarian                       850
+\par        22 Chang                           800
+\par        23 Patel                           795
+\par        24 Dancs                           860
+\par        25 Schwartz                       1100
+\par 
+\par 10 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Nos exemplos anteriores o usuário entrou com a condição de pesquisa quer seja numérica ou caracter, cada qual com suas características, agora  vamos ver como que possibilitamos ao usuário entrar com o nome da coluna e com a própria condição de pesquisa que será estabelecida na cláusula }{\b\fs24 WHERE. }{\fs24 Neste caso temos um exemplo onde é requerida a entrada de um dado numérico.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select id,&nome_coluna   
+\par   2  from s_emp
+\par   3  where &condição;
+\par Enter value for nome_coluna: LAST_NAME      
+\par Enter value for condição:  SALARY > 100
+\par 
+\par        ID LAST_NAME
+\par --------- -------------------------
+\par         1 Velasquez
+\par         2 Ngao
+\par         3 Nagayama
+\par         4 Quick-To-See
+\par         5 Ropeburn
+\par         6 Urguhart
+\par         7 Menchu
+\par         8 Biri
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Temos um outro exemplo em que o usuário entra com o valor da coluna e da condição da }{\b\fs24 WHERE}{\fs24 .   
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select id,&nome_coluna
+\par   2  from  s_ord
+\par   3  where &condição;
+\par Enter value for nome_coluna: date_ordered
+\par Enter value for condição: total>30000
+\par 
+\par        ID DATE_ORDE
+\par --------- ---------
+\par       100 31-AUG-92
+\par       104 03-SEP-92
+\par       107 07-SEP-92
+\par       108 07-SEP-92
+\par       109 08-SEP-92
+\par        97 28-AUG-92
+\par 
+\par 6 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs24 CONSTRUINDO SCRIPTS USANDO OPÇÕES PARA O USUÁRIO ENTRE COM DADOS E TAMBÉM PARA SÓ MOSTRAR NA TELA O PROMPT.}{\fs24  
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos usando os seguintes comandos que na da mais é do que a soma de tudo aquilo que vimos neste capitulo mas também algo mais:
+\par O cmdo }{\b\fs24 SET ECHO OFF}{\fs24  serve para em tempo de execução não se exiba os comandos do }{\b\fs24 SQL}{\fs24  e }{\b\fs24 SET ECHO ON}{\fs24  serve  para retornar a forma anterior.
+\par O cmdo }{\b\fs24 ACCEPT}{\fs24  serve para que preparemos um }{\b\fs24 PROMPT}{\fs24  para receber um valor.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 Neste exemplo também temos a criação de uma variável chamada }{\b\fs24 V_NAME}{\fs24  que recebe valores.
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos preparando o ambiente para receber valores que serão armazenados dentro de uma variável, para após isto, serem feitas  comparações dentro da cláusula }{\b\fs24 WHERE}{\fs24 .
+\par Estamos usando duas tabelas }{\b\fs24 S_DEPT}{\fs24  e }{\b\fs24 S_REGION}{\fs24 , o }{\b\fs24 AND}{\fs24  é uma função onde complementa a cláusula }{\b\fs24 WHERE}{\fs24 , e o }{\b\fs24 UPPER}{\fs24  no }{\b\fs24 DPT.NAME}{\fs24  está passando o conteúdo do nome do dept para maiúsculo para que seja efetuada a comparação com um nome que será digitado pelo  usuário, que por sua vez recebe um UPPER que o transforma em maiúsculo. Essa alternativa é feita 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 porque não sabemos qual é o formato do dado na tabela. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   
+\par Vamos ao exemplo:
+\par 
+\par SET ECHO OFF
+\par ACCEPT V_NAME PROMPT 'DÊ O NOME DO DEPARTAMENTO:'
+\par SELECT DPT.NAME, REG.ID, REG.NAME " NOME DA REGIÃO"
+\par FROM S_DEPT DPT, S_REGION REG}{\b\fs24  \{veja a criação de apelidos\}}{\fs24 
+\par WHERE DPT.REGION_ID = REG.ID }{\b\fs24 \{veja o join\}}{\fs24  
+\par AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%') }{\b\fs24 \{valor digitado \}}{\fs24 
+\par /
+\par SET ECHO ON
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 Como estamos gerando um SCRIPT, os comandos devem ficar armazenados dentro de um arquivo que possua a extensão }{\b\fs24 SQL}{\fs24  e preparado da forma  descrita acima quando estivermos no SQL e desejarmos executar o nosso SCRIPT temos que seguir o procedimento descrito abaixo, usando }{\b\fs24 "@"}{\fs24  e o nome do arquivo, ou }{\b\fs24 " START"}{\fs24  e o nome do arquivo. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SET ECHO ON
+\par SQL> @TEST.SQL
+\par SQL> SET ECHO OFF
+\par DÊ O NOME DO DEPARTAMENTO:sales
+\par old   4: AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%')
+\par new   4: AND UPPER(DPT.NAME) LIKE UPPER('%sales%')
+\par 
+\par NAME                             ID  NOME DA REGIÃO
+\par ------------------------- --------- ---------------------------------------------
+\par Sales                             1 North America
+\par Sales                             2 South America
+\par Sales                             3 África / Middle East
+\par Sales                             4 Ásia
+\par Sales                             5 Europe
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Podemos notar que por ocasião da execução o exemplo anterior  mostrou o }{\b\fs24 OLD}{\fs24  e o }{\b\fs24 NEW}{\fs24  valores da variável, para não mostrar temos que usar o }{\b\fs24 SET VERIFY OFF}{\fs24  veja abaixo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SET VERIFY OFF
+\par SET ECHO OFF
+\par ACCEPT V_NAME PROMPT 'DÊ O NOME DO DEPARTAMENTO:'
+\par SELECT DPT.NAME, REG.ID, REG.NAME " NOME DA REGIÃO"
+\par FROM S_DEPT DPT, S_REGION REG
+\par WHERE DPT.REGION_ID = REG.ID
+\par AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%')
+\par /
+\par SET ECHO ON
+\par 
+\par Executando o SCRIPT:
+\par 
+\par SQL> START TEST.SQL
+\par SQL> SET VERIFY OFF
+\par SQL> SET ECHO OFF
+\par DÊ O NOME DO DEPARTAMENTO:SALES
+\par 
+\par NAME                             ID  NOME DA REGIÃO
+\par ------------------------- --------- ---------------------------------------------
+\par Sales                             1 North America
+\par Sales                             2 South America
+\par Sales                             3 Africa / Middle East
+\par Sales                             4 Ásia
+\par Sales                             5 Europe
+\par 
+\par Input truncated to 11 characters
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 OUTRO EXEMPLO DE GERAÇÃO DE SCRIPT:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Mais uma vez vamos usar alguns comandos já vistos em exemplos anteriores, mas também alguns comandos novos e precisamos
+\par Mostrar a descrição de tais comandos:
+\par O comando }{\b\fs24 SET ECHO OFF}{\fs24  tem a finalidade de não deixar aparecer os cmdos feitos para a execução.
+\par O cmdo }{\b\fs24 VERIFY OFF}{\fs24  tem a finalidade de não mostrar os valores recebidos pelas as  variáveis que no exemplo em questão são }{\b\fs24 MENOR_DT e MAIOR_DT.}{\fs24 
+\par O}{\b\fs24  ACCEPT}{\fs24  é usado para criar variáveis e o }{\b\fs24 PROMPT}{\fs24  para receber valores para as variáveis. 
+\par Criadas as variáveis, observe a sintaxe e o }{\b\fs24 "-"}{\fs24  entre a definição do formato de data o uso de }{\b\fs24 DATE, }{\fs24 o }{\b\fs24 FORMAT}{\fs24   e a especificação }{\b\fs24 'MM/DD/YY'}{\fs24 .
+\par Estamos usando também o }{\b\fs24 COLUMN FORMAT A30}{\fs24  para formatar o tamanho da coluna }{\b\fs24 EMPREGADO}{\fs24  e logo depois estamos concatenando as colunas }{\b\fs24 FIRST_NAME}{\fs24   e }{\b\fs24 LAST_NAME.}{\fs24 
+\par Estamos também usando o }{\b\fs24 BETWEEN}{\fs24  para pesquisarmos valores que estão entre uma data e outra.
+\par Observe o uso do }{\b\fs24 TO_DATE}{\fs24  antes da colocação da variável com o }{\b\fs24 "&"}{\fs24  para receber valores que o usuário digita, e observe também a forma que foi colocado o formato da data }{\b\fs24 'MM/DD/YY'}{\fs24  e o uso do }{\b\fs24 AND}{\fs24  que faz parte da }{\b\fs24 WHERE}{\fs24 . 
+\par O }{\b\fs24 UNDEFINE}{\fs24  serve para que as variáveis percam os valores após a execução.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par SET ECHO OFF             
+\par SET VERIFY OFF
+\par 
+\par ACCEPT MENOR_DT DATE FORMAT 'MM/DD/YY' - 
+\par PROMPT 'ENTRE MENOR DATA (MM/DD/AA) :'
+\par ACCEPT MAIOR_DT DATE FORMAT 'MM/DD/YY' - 
+\par PROMPT 'ENTRE MAIOR DATA (MM/DD/AA) :' 
+\par COLUMN EMPREGADO FORMAT A30
+\par SELECT USERID,FIRST_NAME||' '||LAST_NAME "EMPREGADO",
+\par START_DATE FROM S_EMP
+\par WHERE START_DATE BETWEEN TO_DATE('&MENOR_DT','MM/DD/YY')
+\par AND TO_DATE('&MAIOR_DT','MM/DD/YY')
+\par 
+\par /
+\par UNDEFINE MENOR_DT
+\par UNDEFINE MAIOR_DT
+\par COLUMN EMPREGADO CLEAR
+\par SET ECHO ON
+\par SET VERIFY ON
+\par 
+\par 
+\par OUTRO EXEMPLO DE SCRIPT:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos montando um script com a finalidade de receber um valor que pesquise registros, no caso estamos querendo pesquisar o ID e o NOME de um CUSTOMER e para isso recebendo um dos nomes do CUSTOMER, por isso estamos usando o }{\b\fs24 LIKE}{\fs24  e }{\b\fs24 "%&NOME%"}{\fs24  estamos transformando a coluna }{\b\fs24 NAME}{\fs24  da tabela a ser pesquisada em maiúsculo para que qualquer nome que seja digitado em maiúsculo seja pesquisado.
+\par Está sendo criado a variável }{\b\fs24 NOME}{\fs24  pelo }{\b\fs24 ACCEPT}{\fs24  e o }{\b\fs24 PROMPT}{\fs24  possibilita a recepção de um valor, observe a sintaxe }{\b\fs24 "-"}{\fs24  após a variável NOME. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SET ECHO OFF
+\par SET VERIFY OFF
+\par ACCEPT NOME -
+\par PROMPT ' ENTRE COM O NOME DESEJADO :'
+\par SELECT ID, NAME FROM S_CUSTOMER
+\par WHERE UPPER(NAME) LIKE '%&NOME%'
+\par /
+\par SET ECHO ON\tab 
+\par SET VERIFY ON
+\par 
+\par }{\b\fs40 FINAL DE CAPITULO
+\par }{\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs24  FINALIDADE DO CAPITULO:
+\par }{\fs24  O COMANDO ALTER TABLE E SUAS VARIAÇÕES:
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Adicionado uma coluna em uma tabela:
+\par 
+\par No exemplo a seguir estamos usando o cmdo }{\b\fs24 ALTER TABLE}{\fs24  para adicionar uma  coluna em uma tabela, a coluna adicionada a tabela sempre será a última, importante saber que não podemos deletar uma coluna de uma tabela mas somente adicionar, se precisarmos dropar uma coluna a solução é dropar a tabela e recriá \endash  la  sem a coluna.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao exemplo:
+\par 
+\par SQL> ALTER TABLE S_REGION
+\par ADD      (comments VARCHAR(255));
+\par 
+\par Table altered.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O COMD MODIFY:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos modificando uma coluna usando o comando }{\b\fs24 modify, }{\fs24 no caso estamos aumentando o tamanho da coluna }{\b\fs24 title}{\fs24  para }{\b\fs24 50}{\fs24 , é permitido aumentar o tamanho da coluna mas diminuir não é permitido.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> ALTER TABLE s_emp
+\par  2   MODIFY     (title VARCHAR(50));
+\par 
+\par Table altered.
+\par 
+\par 
+\par ADCIONANDO UMA CONSTRAINT:
+\par 
+\par Para adicionarmos uma constraint temos que usar O }{\b\fs24 ALTER TABLE
+\par }{\fs24 criar um nome para nossa constraint  no caso}{\b\fs24 's_emp_maneger_id_fk',}{\fs24  escrevendo de onde ela é colocando a referência com o id de s_emp.
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SQL>
+\par ALTER TABLE s_emp
+\par ADD CONSTRAINT s_emp_manager_id_fk
+\par FOREIGN KEY (MANAGER_ID)
+\par REFERENCES s_emp(id)
+\par 
+\par 
+\par DROPANDO UMA CONSTRAINT:
+\par Este exemplo mostra como dropar uma CONSTRAINT, Neste caso  o nome da constraint é }{\b\fs24 s_emp_maneger_id_fk}{\fs24 , verifique  a forma como foi escrito o exemplo abaixo:
+\par 
+\par SQL>  ALTER TABLE S_EMP
+\par   2   DROP CONSTRAINT s_emp_manager_id_fk;
+\par 
+\par Table altered.
+\par 
+\par DROPANDO REGISTROS EMCACATA:
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para dropar uma chave primaria em cascata ou seja, deletá - la de forma que seja deletada em todas as tabelas com quem tenha relação, temos prosseguir da seguinte forma:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par  
+\par SQL> ALTER TABLE s_dept
+\par   2  DROP  primary key cascade; \{observe o cmdo cascade\}
+\par 
+\par Table altered.
+\par 
+\par Desabilitando CONSTRAINTS de uma tabela:
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Verifique o cmdo }{\b\fs24 CACADE}{\fs24  sendo usado no }{\b\fs24 ALTER TABLE, }{\fs24 a finalidade de seu uso é permitir que todos os objetos que fazem referência ao campo ID de S_EMP aceitem a desabilitação da constraint.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> ALTER TABLE s_emp
+\par   2  DISABLE CONSTRAINT  s_emp_id_pk CASCADE;
+\par 
+\par Table altered.
+\par 
+\par Habilitando  uma constraint:
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para habilitarmos uma constraint  não precisamos usar o cmdo cascade, porque é criada de forma automática
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 a UK ou FK.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par Vamos ao exemplo
+\par SQL> ALTER TABLE s_emp
+\par   2  ENABLE CONSTRAINT  s_emp_id_pk;
+\par 
+\par Table altered.
+\par }{\b\fs36 
+\par 
+\par FINAL DE CAPITULO}{\fs24 
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid {\f2\fs24 
+\par 
+\par }\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang1046\cgrid {\fs24 \page FINALIDADE DO CAPITULO:
+\par 
+\par O COMANDO SELECT TO_CHAR: 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo abaixo temos um select que está selecionando id,date_ordered da tabela s_ord onde o sales_rep_id é igual a 11, podemos notar que a date_ordered(data) é igual ao formato de data padrão do oracle, ou seja, mês por extenso abreviado e o ano com os dois últimos números do ano.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par  
+\par SQL>  SELECT ID,DATE_ORDERED
+\par   2   FROM S_ORD
+\par   3   WHERE
+\par   4   SALES_REP_ID = 11;
+\par 
+\par        ID DATE_ORDE
+\par --------- ---------
+\par       100 31-AUG-92
+\par       105 04-SEP-92
+\par       109 08-SEP-92
+\par       110 09-SEP-92
+\par       111 09-SEP-92
+\par 
+\par No  exemplo abaixo estamos com o comando }{\b\fs24 " to_char "}{\fs24  mudando
+\par o formato da data para o modelo que nós estamos querendo mostrar em tela, ou seja, estamos mudando o formato padrão do oracle para um novo formato correspondente ao que queremos, no caso }{\b\fs24 'mm/yy'}{\fs24  que corresponde ao mês e o ano. 
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SQL> SELECT ID,TO_CHAR(DATE_ORDERED,'MM/YY') ORDERED
+\par   2  FROM S_ORD
+\par   3  WHERE SALES_REP_ID = 11;
+\par 
+\par        ID ORDERED
+\par --------- ------------------------------------------
+\par       100 08/92
+\par       105 09/92
+\par       109 09/92
+\par       110 09/92
+\par       111 09/92
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos converter a data colocando o dia por extenso  ou seja usando, }{\b\fs24 "day"(extenso),}{\fs24  para o dia e colocando o mês por extenso usando, }{\b\fs24 "month"}{\fs24  para mês e colocando o ano por extenso usando o }{\b\fs24 "yyyy" }{\fs24 para ano}{\b\fs24 .}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par SELECT ID,TO_CHAR(DATE_ORDERED,'DAY/MONTH/YYYY') ORDERED
+\par FROM S_ORD
+\par WHERE SALES_REP_ID = 11
+\par 
+\par 
+\par  ID ORDERED
+\par --- ---------------------------------------------------------
+\par 100 MONDAY   /AUGUST   /1992
+\par 105 FRIDAY   /SEPTEMBER/1992
+\par 109 TUESDAY  /SEPTEMBER/1992
+\par 110 WEDNESDAY/SEPTEMBER/1992
+\par 111 WEDNESDAY/SEPTEMBER/1992
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos colocando o nome da ano escrito por extenso usando a FUNÇÃO }{\b\fs24 "YEAR".}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par 
+\par SELECT ID,TO_CHAR(DATE_ORDERED,'DAY/MONTH/YEAR') ORDERED
+\par   FROM S_ORD
+\par WHERE SALES_REP_ID = 11;
+\par 
+\par   ID ORDERED
+\par ---- -----------------------------------------------------
+\par  100 MONDAY   /AUGUST   /NINETEEN NINETY-TWO
+\par  105 FRIDAY   /SEPTEMBER/NINETEEN NINETY-TWO
+\par  109 TUESDAY  /SEPTEMBER/NINETEEN NINETY-TWO
+\par  110 WEDNESDAY/SEPTEMBER/NINETEEN NINETY-TWO
+\par  111 WEDNESDAY/SEPTEMBER/NINETEEN NINETY-TWO
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos usando o cmdo }{\b\fs24 " dy "}{\fs24  para mudar o dia da semana, passando da escrita por extenso para abreviado em três dígitos, observe o exemplo.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> SELECT ID,TO_CHAR(DATE_ORDERED,'DY/MONTH/YEAR') ORDERED
+\par   2   FROM S_ORD
+\par   3   WHERE SALES_REP_ID = 11;
+\par 
+\par        ID ORDERED
+\par --------- ---------------------------------------------------
+\par       100 MON/AUGUST   /NINETEEN NINETY-TWO
+\par       105 FRI/SEPTEMBER/NINETEEN NINETY-TWO
+\par       109 TUE/SEPTEMBER/NINETEEN NINETY-TWO
+\par       110 WED/SEPTEMBER/NINETEEN NINETY-TWO
+\par       111 WED/SEPTEMBER/NINETEEN NINETY-TWO
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo abaixo demostra como colocar o dia em formato numérico "}{\b\fs24 FMDD}{\fs24 " e o mês e o ano por extenso.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par  Select LAST_NAME, TO_CHAR(START_DATE,'FMDD  "OF" MONTH YYYY') HIREDATE
+\par  FROM  S_EMP
+\par  WHERE START_DATE LIKE '%91'
+\par 
+\par LAST_NAME
+\par -----------------------
+\par HIREDATE
+\par -----------------------
+\par Nagayama
+\par 17  OF JUNE      1991
+\par 
+\par Urguhart
+\par 18  OF JANUARY   1991
+\par 
+\par Havel
+\par 27  OF FEBRUARY  1991
+\par 
+\par Sedeghi
+\par 18  OF FEBRUARY  1991
+\par 
+\par Dumas
+\par 09  OF OCTOBER   1991
+\par 
+\par Nozaki
+\par 09  OF FEBRUARY  1991
+\par 
+\par Patel
+\par 
+\par LAST_NAME
+\par -----------------------
+\par HIREDATE
+\par -----------------------
+\par 06  OF AUGUST    1991
+\par 
+\par Newman
+\par 21  OF JULY      1991
+\par 
+\par Markarian
+\par 26  OF MAY       1991
+\par 
+\par Dancs
+\par 17  OF MARCH     1991
+\par 
+\par Schwartz
+\par 09  OF MAY       1991
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos usando a função }{\b\fs24 to_char}{\fs24  novamente, agora para formatarmos um numero e concatenarmos uma coluna numérica com um comentário caracter.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par SQL>
+\par     SELECT 'O PEDIDO ' ||TO_CHAR(ID)||'
+\par     TEM UM TOTAL DE: '||TO_CHAR(TOTAL,'FM$9,999,999')
+\par     FROM S_ORD
+\par    WHERE DATE_SHIPPED ='21-SEP-92'
+\par /
+\par 
+\par 'OPEDIDO'||TO_CHAR(ID)||'TEMUMTOTALDE:'||TO_CHAR(TOTAL,'FM$9,999,999')
+\par ------------------------------------------------------------------------
+\par O PEDIDO 107
+\par TEM UM TOTAL DE: $142,171
+\par 
+\par O PEDIDO 110
+\par TEM UM TOTAL DE: $1,539
+\par 
+\par O PEDIDO 111
+\par TEM UM TOTAL DE: $2,770
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid {\f2\fs24 
+\par }\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang1046\cgrid {\fs24 
+\par }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 .
+\par 
+\par 
+\par 
+\par 
+\par 
+\par \page Finalidade do Capitulo:
+\par \tab Demostrar o uso do Comando }{\b\fs24 TO_DATE}{\fs24 .
+\par 
+\par Verifique que no exemplo abaixo estamos querendo fazer uma pesquisa usando um campo }{\b\fs24 data}{\fs24  onde escrevemos a data, o mês e o ano e o cmdo }{\b\fs24 to_date}{\fs24  transforma o que digitamos em data para a pesquisa, só que deve ser obedecida uma seqüência lógica nas posições por isso o exemplo abaixo está incorreto.
+\par 
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SQL>  SELECT DATE_ORDERED
+\par   2   FROM S_ORD
+\par   3    WHERE DATE_ORDERED =
+\par   4   TO_DATE('31 1992, AUGUST','DD MONTH, YYYY');
+\par ERROR:
+\par ORA-01843: not a valid month
+\par 
+\par 
+\par 
+\par 
+\par Vamos tentar corrigir o exemplo acima. A função do cmdo }{\b\fs24 to_date}{\fs24  é converter valores digitados, numéricos e caracters
+\par para data, a ordem da data procurada no exemplo abaixo tem que ser a mesma do formato de data colocado da seguinte forma:
+\par 
+\par 
+\par SQL> SELECT DATE_ORDERED
+\par   2  FROM S_ORD
+\par   3   WHERE DATE_ORDERED =
+\par   4  TO_DATE('31 1992, AUGUST','DD, YYY MONTH');
+\par 
+\par DATE_ORDE
+\par ---------
+\par 31-AUG-92
+\par 31-AUG-92
+\par 31-AUG-92
+\par 31-AUG-92
+\par 31-AUG-92
+\par 
+\par 
+\par }{\b\fs40 FINAL DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo:
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Demostrar o uso dos comandos COMMIT,ROLLBACK E SAVE POINT. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Os cmdos }{\b\fs24 COMMIT , ROLLBACK e SAVE POINT}{\fs24  são usados para controle de execução, de confirmação e de retorno.Veja abaixo que estamos  alterando o valor de SALARY na tabela S_EMP usando o }{\b\fs24 UPDATE e SET}{\fs24 , após alterá-los nós criamos um }{\b\fs24 SAVEPOINT}{\fs24 , que serve simplesmente para o controle de ponto, para se quisermos dar um }{\b\fs24 ROLLBACK}{\fs24  nas alterações feitas até então, termos condições de limitar o espaço atingindo pelo }{\b\fs24 ROLLBACK.}{\fs24  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo de Update:
+\par 
+\par SQL> EDIT
+\par Wrote file afiedt.buf
+\par   1  UPDATE S_EMP
+\par   2  SET   SALARY = SALARY * 1.1
+\par   3* WHERE TITLE ='Stock Clerk'
+\par SQL> /
+\par 
+\par 10 rows updated.
+\par 
+\par Agora vamos criar um }{\b\fs24 SAVEPOINT}{\fs24 .
+\par 
+\par Vamos ao Exemplo:
+\par 
+\par SQL> savepoint update_ponto;
+\par 
+\par Savepoint created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usando o cmdo }{\b\fs24 INSERT INTO}{\fs24  estamos inserindo registros
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  na tabela s_region.
+\par  
+\par SQL> insert into s_region (id,name)
+\par   2  values (8,'central');
+\par 
+\par 1 row created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos selecionando os registros de s_region para confirmamos a inserção ou seja, se realmente foi incluído registros nesta tabela.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par SQL> select * from 
+\par   2  s_region
+\par   3  where id = 8;
+\par 
+\par        ID NAME
+\par --------- ------------------------------------
+\par         8 central
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora após confirmarmos a inclusão dos registros, nós decidirmos que não queremos que seja incluído registros na referida tabela  s_region e para voltarmos a nossa ação temos então que dar um }{\b\fs24 ROLLBACK, }{\fs24 para desfazer o }{\b\fs24 INSERT,}{\fs24  só que somente até o ponto da inserção, ou seja até o }{\b\fs24 SAVE POINT, }{\fs24 que foi criado anteriormente ou seja tudo que está antes do }{\b\fs24 SAVE POINT}{\fs24  continua com suas alterações preservadas, é bom observar que para o }{\b\fs24 SAVE POINT}{\fs24  foi criado um nome no caso}{\b\fs24  UPDATE_PONTO,}{\fs24  isso serve para que possamos referenciar de forma correta até que ponto queremos cancelar nossas ações ou seja até que ponto não queremos que sejam salvas nossas ações.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> ROLLBACK TO UPDATE_PONTO;
+\par 
+\par Rollback complete.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos dar novamente um }{\b\fs24 select}{\fs24  para confirmarmos se o nosso }{\b\fs24 ROLLBACK }{\fs24 realmente fez efeito, observe que as alterações feitas anteriormente não foram concretizadas.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select * from
+\par   2  s_region
+\par   3  where id = 8;
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O CMDO }{\b\fs24 ROLLBACK}{\fs24  serve para que seja desfeitas as alterações que foram efetuadas em uma tabela.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> delete from test;
+\par 25,000 rows deleted
+\par 
+\par para cancelar o DELETE na tabela test.
+\par 
+\par SQL> ROLLBACK;
+\par Rollback complete.
+\par 
+\par O uso do COMMIT:
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O CMDO }{\b\fs24 COMMIT}{\fs24  é o contrário do }{\b\fs24 ROLLBACK}{\fs24  ou seja serve para confirmar as alterações que por ventura sejam feitas. Uma vez dado um }{\b\fs24 COMMIT }{\fs24 não podemos retornar mais atrás.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> delete from test;
+\par 25,000 rows deleted
+\par 
+\par Vamos confirmar o DELETE com o }{\b\fs24 COMMIT}{\fs24 .
+\par 
+\par SQL> COMMIT;
+\par Commit complete.
+\par 
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo é demostrar como criar comentários 
+\par a respeito de tabelas.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O comentários criado  a respeito de tabelas e colunas são armazenados no dicionário de dados em:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 ALL_COL_COMMENTS
+\par USER_COL_COMMENTS
+\par ALL_TAB_COMMENTS
+\par USER_TAB_COMMENTS
+\par 
+\par 
+\par Criando  comentários para uma tabela:
+\par 
+\par SQL> COMMENT ON TABLE s_emp is ' informação sobre funcionário';
+\par 
+\par Comment created.
+\par 
+\par 
+\par Como criar comentários para uma coluna:
+\par 
+\par SQL> COMMENT ON COLUMN s_emp.last_name IS ' ultimo';
+\par 
+\par Comment created.COMMENT ON COLUMN s_emp.last_name IS ' último'
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Como verificar os comentários existentes dentro de uma tabela ou coluna:
+\par 
+\par Primeiramente vamos verificar os comentários relativos as colunas pertencentes a uma tabela }{\b\fs24 all_col_comments}{\fs24 , para depois realizarmos um }{\b\fs24 select}{\fs24  em seu conteúdo pesquisando pelo nome da tabela ou coluna para sabermos qual é o comentário específico a respeito.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> desc all_col_comments
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  OWNER                           NOT NULL VARCHAR2(30)
+\par  TABLE_NAME                      NOT NULL VARCHAR2(30)
+\par  COLUMN_NAME                     NOT NULL VARCHAR2(30)
+\par  COMMENTS                                 VARCHAR2(2000)
+\par 
+\par }{\b\fs24 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos realizando um }{\b\fs24  SELECT ALL_COL_COMMENTS}{\fs24   para vermos quais os comentários relativos a todas as colunas da tabela s_emp que são armazenados em }{\b\fs24 COMMENTS}{\fs24   \tab :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select COMMENTS
+\par   2  from all_col_comments
+\par   3  where TABLE_NAME = 'S_EMP';
+\par 
+\par COMMENTS
+\par ------------
+\par  ultimo
+\par 
+\par COMMENTS
+\par ------------
+\par 
+\par Agora queremos saber o comentário a respeito da tabela s_emp veja abaixo:
+\par 
+\par SQL> SELECT  COMMENTS       
+\par   2  FROM  ALL_TAB_COMMENTS
+\par   3  WHERE TABLE_NAME ='S_EMP';
+\par 
+\par COMMENTS
+\par ----------------------------------
+\par 
+\par  informação sobre funcionário
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs36 FIM DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo Tratar de Assuntos Relativos a Constraints.
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ver como verificar as }{\b\fs24 constraints}{\fs24  de uma tabela
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 O seus tipos e nomes ou seja se é not null, se é foreing key,unique key ou primary key.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT CONSTRAINT_NAME, CONSTRAINT_TYPE, SEARCH_CONDITION,
+\par   2  R_CONSTRAINT_NAME
+\par   3  FROM USER_CONSTRAINTS
+\par   4  WHERE TABLE_NAME = 'S_DEPT';
+\par 
+\par CONSTRAINT_NAME                C
+\par ------------------------------ -
+\par SEARCH_CONDITION
+\par --------------------------------------------------------------------------------
+\par R_CONSTRAINT_NAME
+\par ------------------------------
+\par S_DEPT_ID_NN                   C
+\par ID IS NOT NULL
+\par 
+\par 
+\par S_DEPT_NAME_NN                 C
+\par NAME IS NOT NULL
+\par 
+\par 
+\par S_DEPT_ID_PK                   P
+\par 
+\par 
+\par 
+\par S_DEPT_NAME_REGION_ID_UK       U
+\par 
+\par 
+\par 
+\par S_DEPT_REGION_ID_FK            R
+\par 
+\par ----------------------------
+\par 
+\par S_REGION_ID_PK
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para vermos o nome das colunas envolvidas com constraints e seus respectivos nomes naturais temos que fazer um select na tabela }{\b\fs24 user_cons_columns }{\fs24 conforme o exemplo a seguir:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> SELECT CONSTRAINT_NAME, COLUMN_NAME
+\par   2  FROM USER_CONS_COLUMNS
+\par   3  WHERE TABLE_NAME = 'S_DEPT';
+\par 
+\par CONSTRAINT_NAME                COLUMN_NAME
+\par ------------------------------ ---------------------
+\par S_DEPT_ID_NN                   ID
+\par S_DEPT_ID_PK                   ID
+\par S_DEPT_NAME_NN                 NAME
+\par S_DEPT_NAME_REGION_ID_UK       NAME
+\par S_DEPT_NAME_REGION_ID_UK       REGION_ID
+\par S_DEPT_REGION_ID_FK            REGION_ID
+\par 
+\par 6 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo é o Uso do Create, Drop Table.
+\par  
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O comando }{\b\fs24 DROP}{\fs24  é usado para deletar a tabela ou seja, apagá-la fisicamente.
+\par O comando }{\b\fs24 CREATE}{\fs24  é usado na criação de tabelas e o }{\b\fs24 INSERT}{\fs24  na inserção de dados em tabelas.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo de como }{\b\fs24 DROPAR}{\fs24  uma tabela, VIEW ou }{\b\fs24 SEQUENCE}{\fs24 :
+\par 
+\par DROP TABLE EMP;
+\par DROP TABLE DEPT;
+\par DROP TABLE BONUS;
+\par DROP TABLE SALGRADE;
+\par DROP TABLE DUMMY;
+\par DROP TABLE ITEM;
+\par DROP TABLE PRICE;
+\par DROP TABLE PRODUCT;
+\par DROP TABLE ORD;
+\par DROP TABLE CUSTOMER;
+\par DROP VIEW SALES;
+\par DROP SEQUENCE ORDID;
+\par DROP SEQUENCE CUSTID;
+\par DROP SEQUENCE PRODID;
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\tx284\adjustright {\fs24 Vamos ao exemplo de como criar uma tabela, observe os detalhes em relação aos parênteses, nome das colunas ,data type e}{\b\fs24  constraints}{\fs24 .
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 CREATE TABLE DEPT (
+\par  DEPTNO              NUMBER(2) NOT NULL,
+\par  DNAME               CHAR(14),
+\par  LOC                 CHAR(13),
+\par  CONSTRAINT DEPT_PRIMARY_KEY PRIMARY KEY (DEPTNO));
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Após criarmos a tabela vamos inserir dados a mesma, em um comando }{\b\fs24 INSERT }{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par INSERT INTO DEPT VALUES (10,'ACCOUNTING','NEW YORK');
+\par INSERT INTO DEPT VALUES (20,'RESEARCH','DALLAS');
+\par INSERT INTO DEPT VALUES (30,'SALES','CHICAGO');
+\par INSERT INTO DEPT VALUES (40,'OPERATIONS','BOSTON');
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par CREATE TABLE EMP
+\par ( EMPNO               NUMBER(4) NOT NULL,
+\par   ENAME               CHAR(10),
+\par   JOB                 CHAR(9),
+\par   MGR                 NUMBER(4) CONSTRAINT EMP_SELF_KEY             REFERENCES EMP (EMPNO),
+\par  HIREDATE            DATE,
+\par  SAL                 NUMBER(7,2),
+\par  COMM                NUMBER(7,2),
+\par  DEPTNO              NUMBER(2) NOT NULL,
+\par  CONSTRAINT EMP_FOREIGN_KEY FOREIGN KEY (DEPTNO) REFERENCES  DEPT (DEPTNO),
+\par  CONSTRAINT EMP_PRIMARY_KEY PRIMARY KEY (EMPNO));
+\par 
+\par Inserindo Registros na Tabela Criada Usando o cmdo }{\b\fs24 INSERT.
+\par }{\fs24 
+\par INSERT INTO EMP VALUES (7839,'KING','PRESIDENT',NULL,'17-NOV-81',5000,NULL,10);
+\par INSERT INTO EMP VALUES (7698,'BLAKE','MANAGER',7839,'1-MAY-81',2850,NULL,30);
+\par INSERT INTO EMP VALUES (7782,'CLARK','MANAGER',7839,'9-JUN-81',2450,NULL,10);
+\par INSERT INTO EMP VALUES (7566,'JONES','MANAGER',7839,'2-APR-81',2975,NULL,20);
+\par INSERT INTO EMP VALUES (7654,'MARTIN','SALESMAN',7698,'28-SEP-81',1250,1400,30);
+\par INSERT INTO EMP VALUES (7499,'ALLEN','SALESMAN',7698,'20-FEB-81',1600,300,30);
+\par INSERT INTO EMP VALUES (7844,'TURNER','SALESMAN',7698,'8-SEP-81',1500,0,30);
+\par INSERT INTO EMP VALUES (7900,'JAMES','CLERK',7698,'3-DEC-81',950,NULL,30);
+\par INSERT INTO EMP VALUES (7521,'WARD','SALESMAN',7698,'22-FEB-81',1250,500,30);
+\par INSERT INTO EMP VALUES (7902,'FORD','ANALYST',7566,'3-DEC-81',3000,NULL,20);
+\par INSERT INTO EMP VALUES (7369,'SMITH','CLERK',7902,'17-DEC-80',800,NULL,20);
+\par INSERT INTO EMP VALUES (7788,'SCOTT','ANALYST',7566,'09-DEC-82',3000,NULL,20);
+\par INSERT INTO EMP VALUES (7876,'ADAMS','CLERK',7788,'12-JAN-83',1100,NULL,20);
+\par INSERT INTO EMP VALUES (7934,'MILLER','CLERK',7782,'23-JAN-82',1300,NULL,10);
+\par 
+\par 
+\par 
+\par Outro Exemplo de Como Criar uma Tabela:
+\par 
+\par CREATE TABLE BONUS (
+\par  ENAME               CHAR(10),
+\par  JOB                 CHAR(9),
+\par  SAL                 NUMBER,
+\par  COMM                NUMBER);
+\par 
+\par CREATE TABLE SALGRADE (
+\par  GRADE               NUMBER,
+\par  LOSAL               NUMBER,
+\par  HISAL               NUMBER);
+\par 
+\par Inserindo Valores na Nova Tabela.
+\par  
+\par INSERT INTO SALGRADE VALUES (1,700,1200);
+\par INSERT INTO SALGRADE VALUES (2,1201,1400);
+\par INSERT INTO SALGRADE VALUES (3,1401,2000);
+\par INSERT INTO SALGRADE VALUES (4,2001,3000);
+\par INSERT INTO SALGRADE VALUES (5,3001,9999);
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para criarmos uma tabela temos antes que mais nada ter permissão para isto ou seja }{\b\fs24 \ldblquote GRANT\rdblquote ,}{\fs24  que nos é concedido através do }{\b\fs24 DBA,}{\fs24  depois não podemos nos esquecer de criar as }{\b\fs24 CONSTRAINTS}{\fs24  que são as }{\b\fs24 PK }{\fs24 os campos }{\b\fs24 NOT NULL}{\fs24  as }{\b\fs24 FK. }{\fs24 O observe a sintaxe da criação de tabela, a definição do tipo e tamanho das colunas ( }{\b\fs24 Data Type)}{\fs24 , a referencia a chave estrangeira e a criação, as colunas de formato }{\b\fs24 DATE}{\fs24   usa-se o padrão }{\b\fs24 SYSDATE}{\fs24  que corresponde a data do sistema.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par 
+\par Vamos ao Exemplo:
+\par 
+\par CREATE TABLE S_TEST
+\par (ID          NUMBER(7)
+\par CONSTRAINT S_TEST_ID_PK PRIMARY KEY,
+\par NAME         VARCHAR2(25)
+\par CONSTRAINT S_TEST_NAME_NN NOT NULL,
+\par  REGION_ID    NUMBER(7)
+\par CONSTRAINT S_TEST_REGION_ID_FK REFERENCES
+\par S_REGION(ID),
+\par START_DATE    DATE DEFAULT SYSDATE)
+\par /
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No próximo exemplo vamos criar uma tabela em função de uma outra onde se traz somente as constrains }{\b\fs24 NOT NULL}{\fs24 , o tipo e tamanho das colunas são também automaticamente trazidos, assim também como o conteúdo dos mesmos. Verifique o exemplo abaixo como isto é feito e veja o formato de }{\b\fs24 S_EMP}{\fs24  e o novo formato  do que chamamos de }{\b\fs24 EMP_41}{\fs24 , veja também que ele somente traz  os registros referentes ao dept 41. Observe a sintaxe }{\b\fs24 "AS"}{\fs24  e a }{\b\fs24 sub query}{\fs24  dentro do }{\b\fs24 Create table}{\fs24 . 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> Create table emp_41
+\par   2  AS
+\par   3  SELECT ID,LAST_NAME,USERID,START_DATE,
+\par   4  SALARY,TITLE
+\par   5  FROM S_EMP
+\par   6  WHERE DEPT_ID = 41;
+\par 
+\par Table created.
+\par 
+\par 
+\par O formato da tabela criada, é o mesmo da s_emp veja:
+\par   
+\par SQL> DESC EMP_41
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  ID                              NOT NULL NUMBER(7)
+\par  LAST_NAME                       NOT NULL VARCHAR2(25)
+\par  USERID                          NOT NULL VARCHAR2(8)
+\par  START_DATE                               DATE
+\par  SALARY                                   NUMBER(11,2)
+\par  TITLE                                    VARCHAR2(25)
+\par 
+\par 
+\par SQL> desc s_emp
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  ID                              NOT NULL NUMBER(7)
+\par  LAST_NAME                       NOT NULL VARCHAR2(25)
+\par  FIRST_NAME                               VARCHAR2(25)
+\par  USERID                          NOT NULL VARCHAR2(8)
+\par  START_DATE                               DATE
+\par  COMMENTS                                 VARCHAR2(255)
+\par  MANAGER_ID                               NUMBER(7)
+\par  TITLE                                    VARCHAR2(25)
+\par  DEPT_ID                                  NUMBER(7)
+\par  SALARY                                   NUMBER(11,2)
+\par  COMMISSION_PCT                           NUMBER(4,2)
+\par 
+\par 
+\par 
+\par Veja os dados da nova tabela.
+\par 
+\par SQL> select id,last_name
+\par   2  from EMP_41;
+\par 
+\par        ID LAST_NAME
+\par --------- -------------------------
+\par         2 Ngao
+\par         6 Urguhart
+\par        16 Maduro
+\par        17 Smith
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Observe que os dados abaixo são os mesmos da tabela criada que foram justamente criada a partir do departamento 41.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL>  select id,last_name
+\par   2  from s_emp
+\par   3  where dept_id = 41;
+\par 
+\par        ID LAST_NAME
+\par --------- ------------------------
+\par         2 Ngao
+\par         6 Urguhart
+\par        16 Maduro
+\par        17 Smith
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Como  descobrir quais são as tabelas que estão a nossa disposição:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par select object_name from user_Objects 
+\par  where object_type = 'TABLE';
+\par 
+\par }{\b\fs36 FIM DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo:
+\par Demostrar o uso do comando DELETE:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O Cmdo }{\b\fs24 DELETE}{\fs24  serve para delatarmos registros em uma tabela, usamos o }{\b\fs24 DELETE}{\fs24  from e o nome da tabela.Neste exemplo abaixo estamos querendo deletar todos
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 os registros da tabela s_emp que tenham como start_date
+\par o dia 01.01.1996, para isso temos que usar na clausula }{\b\fs24 WHERE}{\fs24  o }{\b\fs24 TO_DATE}{\fs24  colocando o valor do que nós estamos querendo e seu correspondente dia, mês e ano conforme o formato, no caso não deletou nenhum registro porque não existia nenhum que satisfazia as condições.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> EDIT
+\par Wrote file afiedt.buf
+\par   1  DELETE FROM s_emp
+\par   2  WHERE START_DATE >
+\par   3* TO_DATE ('01.01.1996','DD.MM.YYYY')
+\par SQL> /
+\par 
+\par 0 rows deleted
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos tentando deletar um registro que existe, como o registro existente é uma FK que logicamente existe uma outra tabela não se aceita a deleção, veja a mensagem de erro de violação de }{\b\fs24 constraint}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> DELETE FROM s_emp
+\par 2  WHERE START_DATE > TO_DATE ('01.01.1991','dd.mm.yyyy');
+\par DELETE FROM s_emp
+\par             *
+\par ERROR at line 1:
+\par ORA-02292: integrity constraint (GUIMA.S_WAREHOUSE_MANAGER_ID_FK) 
+\par violated - child record found
+\par 
+\par 
+\par Para deletar todos os registros de uma tabela procede-se da seguinte forma:
+\par 
+\par SQL> DELETE FROM test;
+\par 
+\par 25,000 rows deleted.
+\par 
+\par 
+\par Para  confirmarmos a deleção usamos o comando }{\b\fs24 select }{\fs24 na table deletada.
+\par 
+\par SELECT * FROM
+\par 2 test;
+\par 
+\par no rows selected;
+\par 
+\par 
+\par 
+\par }{\b\fs40 FIM DE CAPÍTULO}{\fs24 \page Finalidade do Capítulo é Mostrar com Trabalhar com o Dicionário de Dados.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O dicionário de dados serve dentre outras coisas para possibilitar a visualização de quais  objetos que estão disponíveis para manipulação, por exemplo: se temos acesso a }{\b\fs24 tabelas, views}{\fs24  ou etc.
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos fazendo um select na tabela }{\b\fs24 user_objects}{\fs24  usando o comando }{\b\fs24 'distinct'}{\fs24   com a finalidade de vermos quais os objetos a serem manipulados.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par Vamos ao exemplo:
+\par 
+\par SQL> SELECT DISTINCT OBJECT_TYPE
+\par   2  FROM USER_OBJECTS;
+\par 
+\par OBJECT_TYPE
+\par -------------
+\par INDEX
+\par SEQUENCE
+\par TABLE
+\par /
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para vermos quais são as tabelas ou outros objetos que estão a nossa disposição, ou seja aqueles que temos permissão para manipulá \endash  los temos que fazer um }{\b\fs24 select}{\fs24   no dicionário de dados, incluindo neste o  }{\b\fs24 object_name}{\fs24  na tabela }{\b\fs24 user_objects}{\fs24  usando o tipo desejado }{\b\fs24 'table' ou 'view'}{\fs24  e etc.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par SELECT OBJECT_NAME
+\par FROM USER_OBJECTS
+\par WHERE OBJECT_TYPE = 'TABLE'
+\par / 
+\par OBJECT_NAME
+\par ---------------------
+\par FUNCIONÁRIO
+\par SEÇÃO
+\par S_CUSTOMER
+\par S_DEPT
+\par S_EMP
+\par S_IMAGE
+\par S_INVENTORY
+\par S_ITEM
+\par S_LONGTEXT
+\par S_ORD
+\par S_PRODUCT
+\par S_REGION
+\par S_TITLE
+\par S_WAREHOUSE
+\par 
+\par 14 rows selected.
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Ainda usando o dicionário de dados podemos verificar quais são as }{\b\fs24 constraints}{\fs24  de uma tabela, é bom lembrar que estamos fazendo uma consulta na tabela  }{\b\fs24 USER_CONSTRAITS}{\fs24  que assim como a }{\b\fs24 USER_OBJECTS}{\fs24  pertence ao dicionário de dados. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL> select constraint_name,constraint_type,search_condition,
+\par       r_constraint_name
+\par   2   from user_constraints
+\par   3   where table_name = 'S_EMP';
+\par 
+\par CONSTRAINT C SEARCH_CONDITION   R_CONSTRAINT_NAME
+\par ---------- - ------------------ ---------------------
+\par S_EMP_ID_N C ID IS NOT NULL
+\par N
+\par 
+\par S_EMP_LAST C LAST_NAME IS NOT N
+\par _NAME_NN     ULL
+\par 
+\par S_EMP_USER C USERID IS NOT NULL
+\par ID_NN
+\par 
+\par S_EMP_ID_P P
+\par K
+\par 
+\par S_EMP_USER U
+\par ID_UK
+\par 
+\par S_EMP_COMM C commission_pct IN
+\par ISSION_PCT   (10, 12.5, 15, 17.
+\par _CK          5, 20)
+\par 
+\par S_EMP_MANA R                    S_EMP_ID_PK
+\par GER_ID_FK
+\par 
+\par CONSTRAINT C SEARCH_CONDITION   R_CONSTRAINT_NAME
+\par ---------- - ------------------ ---------------------
+\par 
+\par S_EMP_DEPT R                    S_DEPT_ID_PK
+\par _ID_FK
+\par 
+\par S_EMP_TITL R                    S_TITLE_TITLE_PK
+\par E_FK
+\par 
+\par 
+\par 9 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Tentando refinar ainda mais o exemplo acima vamos verificar quais são as constraints referentes as colunas de uma determinada tabela que no caso é a s_emp.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par 
+\par SQL>
+\par   SELECT CONSTRAINT_NAME,COLUMN_NAME
+\par   FROM USER_CONS_COLUMNS
+\par   WHERE TABLE_NAME ='S_EMP'
+\par 
+\par 
+\par CONSTRAINT_NAME           COLUMN_NAME
+\par ------------------------- -------------------
+\par S_EMP_COMMISSION_PCT_CK   COMMISSION_PCT
+\par S_EMP_DEPT_ID_FK          DEPT_ID
+\par S_EMP_ID_NN               ID
+\par S_EMP_ID_PK               ID
+\par S_EMP_LAST_NAME_NN        LAST_NAME
+\par S_EMP_MANAGER_ID_FK       MANAGER_ID
+\par S_EMP_TITLE_FK            TITLE
+\par S_EMP_USERID_NN           USERID
+\par S_EMP_USERID_UK           USERID
+\par 
+\par 9 rows selected.
+\par 
+\par }{\b\fs40 FIM  DE CAPÍTULO
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Finalidade deste capítulo é apresentar o uso de funções de grupo do }{\b\fs24 cmdo group by, funções de grupo MAX,MIN,SUM,AVG }{\fs24 e
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 ainda o uso do }{\b\fs24 HAVING}{\fs24 :
+\par Dica importante: geralmente o que está dentro do comando }{\b\fs24 select}{\fs24  deve estar no }{\b\fs24 group by}{\fs24 .
+\par 
+\par }\pard \s15\qj\fi567\nowidctlpar\widctlpar\adjustright {\fs24 Neste exemplo estamos vendo o uso da função }{\b\fs24 AVG}{\fs24  que tem a finalidade de trazer a média de uma determinada soma. Estamos também usando a função }{\b\fs24 MAX}{\fs24  e }{\b\fs24 MIN}{\fs24  que tem como função trazer o máximo e o mínimo valor. Também temos a função }{\b\fs24 SUM}{\fs24  que faz a soma de valores de colunas, todas essas funções são funções de grupo. Ainda no exemplo abaixo temos o uso da função }{\b\fs24 UPPER}{\fs24  que transforma o conteúdo a ser pesquisado e a função }{\b\fs24 LIKE}{\fs24  que faz a pesquisa somente nos registros que começarem por }{\b\fs24 'sales'}{\fs24 .
+\par  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select avg(SALARY),MAX(SALARY),MIN(SALARY),
+\par   2         SUM(SALARY)
+\par   3  FROM   S_EMP
+\par   4  WHERE  UPPER(TITLE) LIKE 'SALES%';
+\par 
+\par AVG(SALARY) MAX(SALARY) MIN(SALARY) SUM(SALARY)
+\par ----------- ----------- ----------- -----------
+\par        1476        1525        1400        7380
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Neste exemplo abaixo, temos o menor nome e o maior nome dentro da ordem alfabética, demostrando que não somente os valores numéricos que são manipuláveis com as funções }{\b\fs24 MIN}{\fs24  e }{\b\fs24 MAX}{\fs24 , é bom salientar que as datas também são passíveis de manipulação.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> select MIN(LAST_NAME),MAX(LAST_NAME)
+\par   2  FROM S_EMP;
+\par 
+\par MIN(LAST_NAME)            MAX(LAST_NAME)
+\par ------------------------- -------------------------
+\par Biri                      Velasquez
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos tentando selecionar o ID de departamento igual a 41 trazendo seu numero de repetições, mas não dá certo pois a função }{\b\fs24 COUNT}{\fs24  é de grupo e não estamos usando o }{\b\fs24 GROUP BY}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> select dept_id, count(*) "number"
+\par   2  from   s_emp
+\par   3  where  dept_id = 41;
+\par select dept_id, count(*) "number"
+\par        *
+\par ERROR at line 1:
+\par ORA-00937: not a single-group group function
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Fazendo o }{\b\fs24 select}{\fs24  abaixo temos quantas vezes o dept 41 se repete.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select dept_id
+\par   2  from   s_emp
+\par   3  where  dept_id = 41;
+\par 
+\par   DEPT_ID
+\par ---------
+\par        41
+\par        41
+\par        41
+\par        41
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usando a função de grupo }{\b\fs24 COUNT(*)}{\fs24  que no caso esta contando a quantidade de registros onde o dept_id é igual a 41 ou seja quantas vezes ele se repete, teremos o grupamento feito. O que está no select deve estar no group by.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> select dept_id, count(*) "number"
+\par   2  from   s_emp
+\par   3  where  dept_id = 41
+\par   4  group by dept_id;
+\par 
+\par   DEPT_ID    number
+\par --------- ---------
+\par        41         4
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos contando quantos registros temos para cada CREDIT_RATING da tabela s_customer.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL> select credit_rating,count(*) "# custo"
+\par   2  from   s_customer
+\par   3  group by credit_rating;
+\par 
+\par CREDIT_RA   # custo
+\par --------- ---------
+\par EXCELLENT         9
+\par GOOD              3
+\par POOR              3
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No próximo exemplo é bom destacar o uso do }{\b\fs24 NOT LIKE}{\fs24  onde determina que não seja trazido registros parecidos com uma uma certa condição. Veja também o uso da função de grupo }{\b\fs24 SUM }{\fs24 que trás a soma dos salários.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select title, sum(salary) soma_total
+\par   2  from   s_emp
+\par   3  where  title not like 'VP%'
+\par   4  group by title 
+\par   5  order by
+\par   6  sum(salary);
+\par 
+\par TITLE                     SOMA_TOTAL
+\par ------------------------- ----------
+\par President                       2500
+\par Warehouse Manager               6157
+\par Sales Representative            7380
+\par Stock Clerk                     9490
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Um outro exemplo do uso de ORDER BY, onde estamos grupando por Title.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select title,max(salary)
+\par   2  from   s_emp
+\par   3  group by title;
+\par 
+\par TITLE                     MAX(SALARY)
+\par ------------------------- -----------
+\par President                        2500
+\par Sales Representative             1525
+\par Stock Clerk                      1400
+\par VP, Administration               1550
+\par VP, Finance                      1450
+\par VP, Operations                   1450
+\par VP, Sales                        1400
+\par Warehouse Manager                1307
+\par 
+\par 8 rows selected.}{\b\fs24 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Nossa intenção no select abaixo é fazermos a média dos salários dos campos da coluna SALARY da tabela s_emp, e trazer a tela somente a média que der acima de 2000.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 Não dá certo porque não usamos a clausula }{\b\fs24 where}{\fs24  dentro do }{\b\fs24 group by}{\fs24  mas sim  a função }{\b\fs24 HAVING}{\fs24 , isso quando queremos trazer dados a tela obedecendo uma certa condição.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par SQL> SELECT DEPT_ID,AVG(SALARY)
+\par   2  FROM S_EMP
+\par   3  WHERE AVG(SALARY) > 2000
+\par   4  GROUP BY DEPT_ID;
+\par WHERE AVG(SALARY) > 2000
+\par       *
+\par ERROR at line 3:
+\par ORA-00934: group function is not allowed here
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Veja a maneira correta de se fazer o exercício anterior onde usamos a função }{\b\fs24 HAVING }{\fs24 que se dá da seguinte forma , sempre após o group by.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT DEPT_ID,AVG(SALARY)
+\par   2  FROM S_EMP
+\par   3  GROUP BY DEPT_ID
+\par   4  HAVING AVG(SALARY) > 2000;
+\par 
+\par   DEPT_ID AVG(SALARY)
+\par --------- -----------
+\par        50        2025S
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos selecionando, contando e separando  em grupos os departamentos isso pelo dept_id e depois o title, perceba a seqüência do grupo.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select dept_id,title, count(*)
+\par   2  from   s_emp
+\par   3  group by dept_id,title;
+\par 
+\par   DEPT_ID TITLE                      COUNT(*)
+\par --------- ------------------------- ---------
+\par        10 VP, Finance                       1
+\par        31 Sales Representative              1
+\par        31 VP, Sales                         1
+\par        32 Sales Representative              1
+\par        33 Sales Representative              1
+\par        34 Sales Representative              1
+\par        34 Stock Clerk                       1
+\par        35 Sales Representative              1
+\par        41 Stock Clerk                       2
+\par        41 VP, Operations                    1
+\par        41 Warehouse Manager                 1
+\par        42 Stock Clerk                       2
+\par        42 Warehouse Manager                 1
+\par        43 Stock Clerk                       2
+\par        43 Warehouse Manager                 1
+\par        44 Stock Clerk                       1
+\par        44 Warehouse Manager                 1
+\par        45 Stock Clerk                       2
+\par        45 Warehouse Manager                 1
+\par        50 President                         1
+\par        50 VP, Administration                1
+\par 
+\par 21 rows selected.
+\par 
+\par 
+\par Agora estamos grupando primeiro pelo title e depois pelo dept_id, veja a diferença.
+\par 
+\par SQL> select title,dept_id, count(*)
+\par   2  from   s_emp
+\par   3  group by title,dept_id;
+\par 
+\par TITLE                       DEPT_ID  COUNT(*)
+\par ------------------------- --------- ---------
+\par President                        50         1
+\par Sales Representative             31         1
+\par Sales Representative             32         1
+\par Sales Representative             33         1
+\par Sales Representative             34         1
+\par Sales Representative             35         1
+\par Stock Clerk                      34         1
+\par Stock Clerk                      41         2
+\par Stock Clerk                      42         2
+\par Stock Clerk                      43         2
+\par Stock Clerk                      44         1
+\par Stock Clerk                      45         2
+\par VP, Administration               50         1
+\par VP, Finance                      10         1
+\par VP, Operations                   41         1
+\par VP, Sales                        31         1
+\par Warehouse Manager                41         1
+\par Warehouse Manager                42         1
+\par Warehouse Manager                43         1
+\par Warehouse Manager                44         1
+\par Warehouse Manager                45         1
+\par 
+\par }{\b\fs36 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Observe o uso do }{\b\fs24 HAVING }{\fs24 em substituição a clausula }{\b\fs24 WHERE,}{\fs24  além de outros }{\b\fs24 SELECTS.}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Quando quisermos trazer um registro que inicie por uma letra qualquer temos podemos usamos o cmdo }{\b\fs24 LIKE}{\fs24  procedendo da seguinte forma:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  select last_name, title
+\par   1  from s_emp
+\par   2 where last_name like 'V%'
+\par 
+\par 
+\par LAST_NAME                 TITLE
+\par ------------------------- -------------------------
+\par Velasquez                 President
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos fazendo a seleção de todos os cargos de  funcionários existentes assim como contando seus componentes }{\b\fs24 COUNT }{\fs24 e ainda trazendo as  suas respectivas medias salariais usando a função }{\b\fs24 AVG,}{\fs24  multiplicadas por 12.
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT TITLE, 12 * AVG(SALARY) " Salário Anual",
+\par   2  count(*) " numero de funcionários"
+\par   3  from s_emp
+\par   4  group by title;
+\par 
+\par TITLE                   Salário Anual  numero de funcionários
+\par President                  $30,000.00                       1
+\par Sales Representative       $17,712.00                       5
+\par Stock Clerk                $11,388.00                      10
+\par VP, Administration         $18,600.00                       1
+\par VP, Finance                $17,400.00                       1
+\par VP, Operations             $17,400.00                       1
+\par VP, Sales                  $16,800.00                       1
+\par Warehouse Manager          $14,776.80                       5
+\par 
+\par 8 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Um pouco diferente do exemplo anterior o abaixo está primeiramente  formatando a coluna }{\b\fs24 Salário Anual}{\fs24  para receber valores após ter sido feito um select em }{\b\fs24 TITLE. }{\fs24 Estamos multiplicando por 12 a soma da média dos salários feita pela função }{\b\fs24 AVG}{\fs24 , e então usamos a função }{\b\fs24 COUNT}{\fs24  para contar o numero de funcionários de s_emp grupados por }{\b\fs24 title}{\fs24  e que tenha no máximo 2 funcionários, olhando para o exemplo anterior podemos entender melhor e também destacar que o }{\b\fs24 HAVING}{\fs24  está fazendo a função de um }{\b\fs24 WHERE}{\fs24  dentro do }{\b\fs24 GROUP BY}{\fs24 .
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> column " Salário Anual" FORMAT $99,999.99
+\par SQL> SELECT TITLE, 12 * AVG(SALARY) " Salário Anual",
+\par   2  count(*) " numero de funcionários"
+\par   3  from s_emp
+\par   4  group by title
+\par   5  having count(*) > 2;
+\par 
+\par TITLE                  Salário Anual  numero de funcionários
+\par ------------------------- -------------- --------------------
+\par Sales Representative    $17,712.00                       5
+\par Stock Clerk             $11,388.00                      10
+\par Warehouse Manager       $14,776.80                       5
+\par 
+\par 
+\par Mais um exemplo do uso do HAVING:
+\par 
+\par SQL> select title,sum(salary) soma
+\par   2  from s_emp
+\par   3  where title not like'VP%'
+\par   4  group by title
+\par   5  having sum(salary) > 5000
+\par   6  order by sum(salary);
+\par 
+\par TITLE                          SOMA
+\par ------------------------- ---------
+\par Warehouse Manager              6157
+\par Sales Representative           7380
+\par Stock Clerk                    9490
+\par 
+\par }{\b\fs36 FIM DE CAPÍTULO}{\fs36 
+\par }{\fs24 \page Finalidade do capítulo é demostrar como criar }{\b\fs24 GRANTS.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para criar um novo usuário (isto é executado pelo DBA) devemos proceder da seguinte forma, }{\b\fs24 "NOVO"}{\fs24  é o nome do usuário e }{\b\fs24 IDENTIFIED BY}{\fs24  "tiger" é sua senha.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  CREATE USER NOVO
+\par   2  IDENTIFIED BY TIGER;
+\par 
+\par User created.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora após termos criado um novo usuário vamos dar-lhe os seus GRANTS ou seja as permissões devidas como,}{\b\fs24 delete,update}{\fs24  e etc, veja como se processa isto e veja também a sintaxe:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL>  GRANT create table, create sequence, create view
+\par   2  to NOVO;
+\par 
+\par Grant succeeded.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Criando uma }{\b\fs24 ROLE}{\fs24  de privilégios para ser usada para vários  usuários, uma }{\b\fs24 role}{\fs24  é o conjunto de privilégios que guardamos armazenados com a finalidade de proporcionar uma facilitação de manuseio na hora de se conceder privilégios, evitando a digitação de todos os privilégios, passando a ter que digitar somente o nome da }{\b\fs24 role. }{\fs24 No exemplo, o nome da ROLE é }{\b\fs24 "manager"}{\fs24  e por enquanto não existe nenhum privilégio dentro dela.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> CREATE ROLE manager;
+\par 
+\par Role created.
+\par 
+\par Agora estamos definindo os privilégios para a ROLE "manager", que são: criar tabela e view. Observe como se processa isto:  
+\par 
+\par SQL> GRANT create table, create view TO manager;
+\par 
+\par Grant succeeded.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora que nossa }{\b\fs24 ROLE}{\fs24  já tem os privilégios definidos, no exemplo abaixo vou passá-la para algum usuário. No caso o usuário }{\b\fs24 "NOVO"}{\fs24  está recebendo os }{\b\fs24 GRANTS}{\fs24  da }{\b\fs24 ROLE MANAGER}{\fs24 , que são somente criar tabela e view:
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL> GRANT MANAGER TO NOVO;
+\par 
+\par Grant succeeded
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Como mudar a senha de um usuário: no caso estamos mudando do user }{\b\fs24 novo}{\fs24  que tinha como "senha" ou seja }{\b\fs24 IDENTIFIED}{\fs24  igual a }{\b\fs24 TIGER}{\fs24  passando a ser }{\b\fs24 LION}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> ALTER USER NOVO IDENTIFIED BY LION;
+\par 
+\par User altered.
+\par 
+\par 
+\par Agora estamos dando um novo }{\b\fs24 GRANT}{\fs24  para o USER "NOVO" referente a tabela s_emp, neste caso o }{\b\fs24 GRANT}{\fs24  é só de consulta.
+\par 
+\par SQL> GRANT select
+\par   2  ON s_emp
+\par   3  TO novo;
+\par 
+\par Grant succeeded.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo abaixo mostra como adicionar um novo }{\b\fs24 GRANT}{\fs24  a uma }{\b\fs24 ROLE}{\fs24 , relacionado com colunas específicas de uma tabela no caso s_dept e  atribuindo a permissão de }{\b\fs24 update}{\fs24  para o usuário }{\b\fs24 "NOVO"}{\fs24  e para a }{\b\fs24 ROLE "manager"}{\fs24 .
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> GRANT update(name,region_id)
+\par   2  ON    s_dept
+\par   3  TO    novo,manager;
+\par 
+\par Grant succeeded.
+\par 
+\par }\pard \s15\qj\fi567\nowidctlpar\widctlpar\adjustright {\fs24 Este exemplo mostra como dar GRANT para um USER em uma tabela e este usuário ter permissão de passar este mesmo GRANT para outros usuários.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> GRANT select
+\par   2  ON    s_emp
+\par   3  TO    scott
+\par   4  WITH  GRANT OPTION;
+\par 
+\par Grant succeeded.
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estou tornando publico de todos o SELECT a tabela S_DEPT referente ao usuário GUIMA, ou seja todos podem dar }{\b\fs24 select }{\fs24 a tabela s_dept do usuário GUIMA.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  GRANT SELECT
+\par   2  ON    GUIMA.S_DEPT
+\par   3  TO    PUBLIC;
+\par 
+\par Grant succeeded.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para sabermos quais privilégios nós possuímos podemos acessar no }{\b\fs24 DICIONÁRIO DE DADOS}{\fs24  nas seguintes tabelas: 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par  ROLE_SYS_PRIVS
+\par  ROLE_TAB_PRIVS
+\par  USER_ROLE_PRIVS
+\par  USER_TAB_PRIVS_MADE
+\par  USER_TAB_PRIVS_RECD
+\par  USER_COL_PRIVS_MADE
+\par  USER_COL_PRIVS_RECD
+\par 
+\par 
+\par Como ver as }{\b\fs24 ROLES}{\fs24  que eu tenho acesso:
+\par 
+\par SQL>  SELECT GRANTED_ROLE,OS_GRANTED
+\par   2   FROM USER_ROLE_PRIVS
+\par   3   WHERE USERNAME = 'GUIMA';
+\par 
+\par GRANTED_ROLE                   OS_
+\par ------------------------------ ---
+\par CONNECT                        NO
+\par DBA                            NO
+\par MANAGER                        NO
+\par 
+\par 
+\par 
+\par Para tirar os privilégios de um USER procede-se da seguinte forma:
+\par 
+\par SQL> REVOKE select
+\par   2  ON s_emp
+\par   3  FROM NOVO;
+\par 
+\par Revoke succeeded.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo acima estamos tirando os privilégios de }{\b\fs24 select}{\fs24  do USER \ldblquote NOVO\rdblquote .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Como criar sinônimo:
+\par Criando um sinônimo para uma tabela: no caso está sendo criado um sinônimo com o nome }{\b\fs24 "HXXH"}{\fs24  para a tabela s_dept pertencente a }{\b\fs24  alice}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> CREATE SYNONYM HXXH
+\par      FOR       alice.s_dept;
+\par Synonym created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos criando um sinônimo para uma }{\b\fs24 VIEW}{\fs24 , nossa VIEW se chama }{\b\fs24 dept_sum_vu}{\fs24  e o nome do sinônimo criado é }{\b\fs24 d_sum}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> create SYNONYM d_sum
+\par   2  for   dept_sum_vu;
+\par 
+\par Synonym created.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos criando um sinônimo publico, o nome dele é }{\b\fs24 "DDD"}{\fs24  e é referente a tabela s_dept de alice:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> create public SYNONYM DDD
+\par   2  FOR     alice.s_dept;
+\par 
+\par Synonym created.
+\par 
+\par Para dropar  um sinônimo é simples:
+\par 
+\par SQL> DROP SYNONYM d_sum;
+\par 
+\par Synonym dropped.
+\par 
+\par }{\b\fs36 FIM DE CAPÍTULO
+\par }{\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par Finalidade do Capítulo é Tratar Sobre }{\b\fs24 INDEX }{\fs24  e }{\b\fs24 JOIN e OUTER JOIN}{\fs24 :
+\par 
+\par INDEX:
+\par 
+\par }\pard \s15\fi567\nowidctlpar\widctlpar\adjustright {\fs24 Uma INDEX pode ser criada automaticamente(quando é criada uma PK ou UK constraint em uma tabela) ou manualmente. Para delatarmos uma INDEX temos que usar o cmdo }{\b\fs24 DROP INDEX}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par SQL> DROP INDEX s_emp_last_name_idx;
+\par 
+\par Index dropped.
+\par 
+\par Para criar uma }{\b\fs24 INDEX}{\fs24  usa-se o cmdo }{\b\fs24 CREATE INDEX}{\fs24 :
+\par 
+\par Vamos ao Exemplo:
+\par  
+\par SQL> CREATE INDEX S_EMP_last_name_idx
+\par   2  on           S_EMP(last_name);
+\par 
+\par Index created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para selecionar as INDEX de uma tabela faz-se um }{\b\fs24 SELECT }{\fs24 na tabela }{\b\fs24 USER_INDEXES e USER_IND_COLUMNS}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par O uso do  }{\b\fs24 JOIN}{\fs24 :
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Join é a ligação que fazemos entre duas tabelas na pesquisa de dados, necessariamente deve existir em um join a chave primaria fazendo relação com uma chave estrangeira, esta é a condição e ligação.
+\par No exemplo abaixo estamos selecionando o }{\b\fs24 last_name}{\fs24  e }{\b\fs24 dept_id }{\fs24 da tabela }{\b\fs24 s_emp}{\fs24  e também selecionando a coluna }{\b\fs24 name}{\fs24  da tabela }{\b\fs24 s_dept}{\fs24  isto onde a coluna }{\b\fs24 id}{\fs24  de }{\b\fs24 s_dept}{\fs24  for igual a coluna }{\b\fs24 dept_id}{\fs24  de }{\b\fs24 s_emp}{\fs24 , completando assim a condição do }{\b\fs24 JOIN}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao exemplo:
+\par 
+\par SQL> SELECT S_EMP.LAST_NAME,S_EMP.DEPT_ID,S_DEPT.NAME
+\par   2  FROM S_EMP,S_DEPT
+\par   3  WHERE S_EMP.DEPT_ID = S_DEPT.ID;
+\par 
+\par LAST_NAME                   DEPT_ID NAME
+\par ------------------------- --------- ---------------------
+\par Velasquez                        50 Administration
+\par Ngao                             41 Operations
+\par Nagayama                         31 Sales
+\par Quick-To-See                     10 Finance
+\par Ropeburn                         50 Administration
+\par Urguhart                         41 Operations
+\par Menchu                           42 Operations
+\par Biri                             43 Operations
+\par Catchpole                        44 Operations
+\par Havel                            45 Operations
+\par Magee                            31 Sales
+\par Giljum                           32 Sales
+\par Sedeghi                          33 Sales
+\par Nguyen                           34 Sales
+\par Dumas                            35 Sales
+\par Maduro                           41 Operations
+\par Smith                            41 Operations
+\par Nozaki                           42 Operations
+\par Patel                            42 Operations
+\par Newman                           43 Operations
+\par Markarian                        43 Operations
+\par 
+\par 
+\par 
+\par No exemplo abaixo como no anterior temos a realização de um }{\b\fs24 JOIN.
+\par 
+\par }{\fs24 Vamos ao exemplo.
+\par 
+\par SQL> SELECT S_DEPT.ID " COD DO DEPT",
+\par   2  S_REGION.ID "COD DA REG",
+\par   3  S_REGION.NAME"NOME DA REGIÃO"
+\par   4  FROM S_DEPT,S_REGION
+\par   5  WHERE S_DEPT.REGION_ID = S_REGION.ID;
+\par 
+\par  COD DO DEPT COD DA REG NOME DA REGIÃO
+\par ------------ ---------- -------------------------
+\par           10          1 North America
+\par           31          1 North America
+\par           32          2 South America
+\par           33          3 Africa / Middle East
+\par           34          4 Ásia
+\par           35          5 Europe
+\par           41          1 North America
+\par           42          2 South America
+\par           43          3 Africa / Middle East
+\par           44          4 Ásia
+\par           45          5 Europe
+\par           50          1 North America
+\par 
+\par 12 rows selected.
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo temos mais um exemplo de }{\b\fs24 join}{\fs24  onde temos o uso de apelidos para as tabelas manipuladas, é importante observar como é usado o apelido  e como este tem que ser referenciado no }{\b\fs24 FROM}{\fs24 , no exemplo abaixo vemos o apelido  de }{\b\fs24 "E"}{\fs24  para a tabela }{\b\fs24 S_EMP}{\fs24 , de }{\b\fs24 "D"}{\fs24  para a tabela }{\b\fs24 S_DEPT}{\fs24 . Outra característica importante no exemplo é o uso do }{\b\fs24 JOIN}{\fs24  onde relacionamos as duas tabelas através da chave estrangeira. O uso do }{\b\fs24 INITCAP}{\fs24  serve para procurarmos o registro que comece com a letra maiúscula 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL> select E.last_name,E.dept_id,
+\par   2  D.name
+\par   3  from s_emp E,s_dept D
+\par   4  where e.dept_id = D.id
+\par   5  and initcap(E.last_name)='Menchu';
+\par 
+\par LAST_NAME                   DEPT_ID NAME
+\par ------------------------- --------- -------------------------
+\par Menchu                           42 Operations
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo temos a realização de dois }{\b\fs24 JOINS,}{\fs24  uso do }{\b\fs24 AND}{\fs24  no exemplo abaixo proporciona a adição de mais de uma condição ou seja além do }{\b\fs24 join}{\fs24  entre }{\b\fs24 s_emp}{\fs24  e }{\b\fs24 s_dept}{\fs24  também ocorre um }{\b\fs24 Join}{\fs24  entre }{\b\fs24 s_region}{\fs24  e }{\b\fs24 s_dept}{\fs24  proporcionado pelo uso do }{\b\fs24 AND}{\fs24 . Também está sendo usado um novo }{\b\fs24 AND}{\fs24  colocando a commission_pct da tabela s_emp > 0.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par Vamos ao exemplo:
+\par 
+\par SQL>  select E.last_name,R.name,E.commission_pct
+\par   2   from s_emp E, s_dept D, s_region R
+\par   3  where E.dept_id = D.id
+\par   4  and D.region_id = R.id
+\par {\pntext\pard\plain\s15 \f2\cgrid \hich\af2\dbch\af0\loch\f2 5\tab}}\pard \s15\fi-435\li735\nowidctlpar\widctlpar\jclisttab\tx735{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec\pnstart5\pnindent735\pnhang}\ls3\adjustright {\fs24 and E.commission_pct > 0;
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par LAST_NAME        NAME                  COMMISSION_PCT
+\par --------------------------------------- --------------
+\par Magee           North America               10
+\par Giljum          South America               12.5
+\par Sedeghi         Africa / Middle East        10
+\par Nguyen          Ásia                        15
+\par Dumas           Europe                      17.5
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos mostrando um join que traz todos os registros que satisfaçam a condição da clausula }{\b\fs24 where}{\fs24  ou seja traz somente aquele que satisfação o }{\b\fs24 JOIN}{\fs24  não traz  os registros que contem espaços em branco, em função da relação entre as duas tabelas no caso entre s_emp e s_customer. Mas e se quisermos que pesquisar inclusive os registros que não tem relacionamento, ou seja que estejam com o espaço em branco? Para isso temos que acrescentarmos o sinal de (+).
+\par  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par 
+\par SQL>  select e.last_name,e.id,c.name
+\par   2   from s_emp e, s_customer c
+\par   3   where e.id = c.sales_rep_id
+\par   4   order by e.id;
+\par 
+\par LAST_NAME                 ID      NAME
+\par ---------------------- --------- ---------------------------
+\par Magee                     11     Womansport
+\par Magee                     11     Beisbol Si!
+\par Magee                     11     Ojibway Retail
+\par Magee                     11     Big John's Sports Emporium
+\par Giljum                    12     Unisports
+\par Giljum                    12     Futbol Sonora
+\par Sedeghi                   13     Hamada Sport
+\par Nguyen                    14     Simms Athletics
+\par Nguyen                    14     Delhi Sports
+\par Dumas                     15     Kam's Sporting Goods
+\par Dumas                     15     Sportique
+\par Dumas                     15     Sporta Russia
+\par Dumas                     15     Kuhn's Sports
+\par Dumas                     15     Muench Sports
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O  exemplo a seguir  é idêntico ao anterior  com a diferença que está acrescido do sinal de }{\b\fs24 (+)}{\fs24  para, mesmo satisfazendo a clausula }{\b\fs24 where}{\fs24 , traga os registros que não tenham satisfeito a condição de relacionamento da clausula where, no caso, estamos então fazendo um }{\b\fs24 OUTER JOIN}{\fs24  pegando o }{\b\fs24 LAST_NAME}{\fs24  e o }{\b\fs24 ID}{\fs24  da tabela }{\b\fs24 s_emp}{\fs24  e o }{\b\fs24 NAME}{\fs24  da tabela }{\b\fs24 s_customer}{\fs24  onde o }{\b\fs24 id}{\fs24  da tabela }{\b\fs24 s_emp}{\fs24  corresponda ao }{\b\fs24 sales_rep_id}{\fs24  dentro da tabela }{\b\fs24 s_customer}{\fs24  e com o sinal de }{\b\fs24 (+)}{\fs24  traga  também os }{\b\fs24 NAME}{\fs24  de }{\b\fs24 s_customer}{\fs24  que não tenham relação com }{\b\fs24 s_emp}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24    
+\par SQL> select e.last_name,e.id,c.name
+\par   2  from s_emp e, s_customer c
+\par   3  where e.id (+) = c.sales_rep_id
+\par   4  order by e.id;
+\par 
+\par LAST_NAME                        ID NAME
+\par ------------------------- --------- ------------------------
+\par Magee                            11 Womansport
+\par Magee                            11 Beisbol Si!
+\par Magee                            11 Ojibway Retail
+\par Magee                            11 Big John's Sports Empori
+\par Giljum                           12 Unisports
+\par Giljum                           12 Futbol Sonora
+\par Sedeghi                          13 Hamada Sport
+\par Nguyen                           14 Simms Athletics
+\par Nguyen                           14 Delhi Sports
+\par Dumas                            15 Kam's Sporting Goods
+\par Dumas                            15 Sportique
+\par Dumas                            15 Muench Sports
+\par Dumas                            15 Sporta Russia
+\par Dumas                            15 Kuhn's Sports
+\par                                     Sweet Rock Sports
+\par 
+\par 15 rows selected.
+\par 
+\par }{\b\fs36 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par Finalidade do capítulo é mostrar o uso do }{\b\fs24 BETWEEN.
+\par }{\fs24 
+\par  No exemplo a seguir estamos selecionando as colunas }{\b\fs24 ename}{\fs24 ,}{\b\fs24 job}{\fs24 ,}{\b\fs24 sal}{\fs24  da tabela }{\b\fs24 EMP}{\fs24  e a coluna }{\b\fs24 GRADE}{\fs24  da tabela }{\b\fs24 SALGRADE}{\fs24 , onde através do comando }{\b\fs24 BETWEEN AND}{\fs24  ocorre uma pesquisa na tabela }{\b\fs24 SALGRADE}{\fs24  nas colunas }{\b\fs24 LOSAL}{\fs24  e }{\b\fs24 HISAL}{\fs24  onde comparamos seus valores com os  valores dos campos da coluna }{\b\fs24 SAL}{\fs24  de }{\b\fs24 EMP}{\fs24  trazendo somente aqueles valores que estejam entre os de }{\b\fs24 LOSAL}{\fs24  e }{\b\fs24 HISAL}{\fs24 . No exemplo não ocorre um }{\b\fs24 JOIN}{\fs24  mas uma simples pesquisa em uma outra tabela para que seja efetuada uma comparação.  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select e.ename,e.job,e.sal,s.grade
+\par   2   from emp e, salgrade s
+\par   3   where e.sal between s.losal and s.hisal
+\par 
+\par ENAME      JOB             SAL     GRADE
+\par ---------- --------- --------- ---------
+\par SMITH      CLERK           800         1
+\par ADAMS      CLERK          1100         1
+\par JAMES      CLERK           950         1
+\par WARD       SALESMAN       1250         2
+\par MARTIN     SALESMAN       1250         2
+\par MILLER     CLERK          1300         2
+\par ALLEN      SALESMAN       1600         3
+\par TURNER     SALESMAN       1500         3
+\par JONES      MANAGER        2975         4
+\par BLAKE      MANAGER        2850         4
+\par CLARK      MANAGER        2450         4
+\par SCOTT      ANALYST        3000         4
+\par FORD       ANALYST        3000         4
+\par KING       PRESIDENT      5000         5
+\par 
+\par 14 rows selected.
+\par }{\b\fs36 
+\par 
+\par FINAL DE CAPÍTULO}{\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Finalidade do capítulo é mostrar o uso do }{\b\fs24 ORDER BY.}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo abaixo mostra como usar o comando }{\b\fs24 order by}{\fs24 , onde no caso estamos ordenando a tabela s_emp pelo o }{\b\fs24 last_name}{\fs24 , é bom lembrar que sempre o comando }{\b\fs24 order by}{\fs24  vem por último na função sql.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao exemplo:
+\par 
+\par SELECT LAST_NAME, DEPT_ID,START_DATE
+\par FROM S_EMP 
+\par ORDER BY LAST_NAME
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Biri                             43 07-APR-90
+\par Catchpole                        44 09-FEB-92
+\par Chang                            44 30-NOV-90
+\par Dancs                            45 17-MAR-91
+\par Dumas                            35 09-OCT-91
+\par Giljum                           32 18-JAN-92
+\par Havel                            45 27-FEB-91
+\par Maduro                           41 07-FEB-92
+\par Magee                            31 14-MAY-90
+\par Markarian                        43 26-MAY-91
+\par Menchu                           42 14-MAY-90
+\par Nagayama                         31 17-JUN-91
+\par Newman                           43 21-JUL-91
+\par Ngao                             41 08-MAR-90
+\par Nguyen                           34 22-JAN-92
+\par Nozaki                           42 09-FEB-91
+\par Patel                            42 06-AUG-91
+\par Patel                            34 17-OCT-90
+\par Quick-To-See                     10 07-APR-90
+\par Ropeburn                         50 04-MAR-90
+\par Schwartz                         45 09-MAY-91
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Sedeghi                          33 18-FEB-91
+\par Smith                            41 08-MAR-90
+\par Urguhart                         41 18-JAN-91
+\par Velasquez                        50 03-MAR-90
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No comando sql }{\b\fs24 order by}{\fs24  temos a função }{\b\fs24 desc}{\fs24  que vem com a finalidade de colocar os dados dentro da coluna em ordem decrescente. No exemplo a seguir estamos colocando por ordem decrescente a coluna }{\b\fs24 start_date}{\fs24  da tabela }{\b\fs24 s_emp.}{\fs24  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par SQL> SELECT LAST_NAME, DEPT_ID,START_DATE
+\par   2  FROM S_EMP
+\par   3  ORDER BY START_DATE DESC;
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Catchpole                        44 09-FEB-92
+\par Maduro                           41 07-FEB-92
+\par Nguyen                           34 22-JAN-92
+\par Giljum                           32 18-JAN-92
+\par Dumas                            35 09-OCT-91
+\par Patel                            42 06-AUG-91
+\par Newman                           43 21-JUL-91
+\par Nagayama                         31 17-JUN-91
+\par Markarian                        43 26-MAY-91
+\par Schwartz                         45 09-MAY-91
+\par Dancs                            45 17-MAR-91
+\par Havel                            45 27-FEB-91
+\par Sedeghi                          33 18-FEB-91
+\par Nozaki                           42 09-FEB-91
+\par Urguhart                         41 18-JAN-91
+\par Chang                            44 30-NOV-90
+\par Patel                            34 17-OCT-90
+\par Menchu                           42 14-MAY-90
+\par Magee                            31 14-MAY-90
+\par Quick-To-See                     10 07-APR-90
+\par Biri                             43 07-APR-90
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Ngao                             41 08-MAR-90
+\par Smith                            41 08-MAR-90
+\par Ropeburn                         50 04-MAR-90
+\par Velasquez                        50 03-MAR-90
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora  vamos mostrar os dados  do resultado do mesmo select anterior sem o uso da função }{\b\fs24 desc}{\fs24  para o }{\b\fs24 order by, }{\fs24 observe a diferença da ordenação em relação as datas.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, DEPT_ID,START_DATE
+\par   2  FROM S_EMP
+\par   3  ORDER BY START_DATE;
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Velasquez                        50 03-MAR-90
+\par Ropeburn                         50 04-MAR-90
+\par Ngao                             41 08-MAR-90
+\par Smith                            41 08-MAR-90
+\par Quick-To-See                     10 07-APR-90
+\par Biri                             43 07-APR-90
+\par Menchu                           42 14-MAY-90
+\par Magee                            31 14-MAY-90
+\par Patel                            34 17-OCT-90
+\par Chang                            44 30-NOV-90
+\par Urguhart                         41 18-JAN-91
+\par Nozaki                           42 09-FEB-91
+\par Sedeghi                          33 18-FEB-91
+\par Havel                            45 27-FEB-91
+\par Dancs                            45 17-MAR-91
+\par Schwartz                         45 09-MAY-91
+\par Markarian                        43 26-MAY-91
+\par Nagayama                         31 17-JUN-91
+\par Newman                           43 21-JUL-91
+\par Patel                            42 06-AUG-91
+\par Dumas                            35 09-OCT-91
+\par 
+\par LAST_NAME                   DEPT_ID START_DAT
+\par ------------------------- --------- ---------
+\par Giljum                           32 18-JAN-92
+\par Nguyen                           34 22-JAN-92
+\par Maduro                           41 07-FEB-92
+\par Catchpole                        44 09-FEB-92
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo seguinte mostra como usar a posição da coluna dentro do comando sql para  definir a ordenação dos registros por aquela coluna, no caso abaixo estamos ordenando nossos dados pela coluna numero 4 que corresponde a }{\b\fs24 START_DATE}{\fs24  de }{\b\fs24  S_EMP.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> SELECT ID,LAST_NAME,FIRST_NAME,START_DATE
+\par   2  MANAGER_ID, SALARY         
+\par   3  FROM S_EMP
+\par   4  ORDER BY 4;
+\par 
+\par ID LAST_NAME  FIRST_NAME     MANAGER_I    SALARY
+\par -------------- ------------------------- --------- ---------
+\par 1 Velasquez    Carmen         03-MAR-90      2500
+\par 5 Ropeburn     Audry          04-MAR-90      1550
+\par 2 Ngao        LaDoris         08-MAR-90      1450
+\par 17 Smith      George          08-MAR-90       940
+\par 4 Quick-To-See Mark           07-APR-90      1450
+\par 8 Biri         Ben            07-APR-90      1100
+\par 7 Menchu       Roberta        14-MAY-90      1250
+\par 11 Magee       Colin          14-MAY-90      1400
+\par 23 Patel       Radha          17-OCT-90       795
+\par 22 Chang       Eddie          30-NOV-90       800
+\par 6 Urguhart     Molly          18-JAN-91      1200
+\par 18 Nozaki      Akira          09-FEB-91      1200
+\par 9 Catchpole    Antoinette     09-FEB-92      1300
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora além de ordenar pela coluna numero 4 estamos também colocando em ordem decrescente usando para isto o cmdo }{\b\fs24 desc}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  SELECT ID,LAST_NAME,FIRST_NAME,START_DATE
+\par   2   MANAGER_ID, SALARY         
+\par   3   FROM S_EMP
+\par   4   ORDER BY 4 DESC;
+\par 
+\par ID LAST_NAME    FIRST_NAME     MANAGER_I    SALARY
+\par -------- ------------------------- --------- ---------
+\par 9 Catchpole      Antoinette     09-FEB-92      1300
+\par 16 Maduro        Elena          07-FEB-92      1400
+\par 14 Nguyen        Mai            22-JAN-92      1525
+\par 12 Giljum        Henry          18-JAN-92      1490
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No próximo  exemplo o comando }{\b\fs24 order by}{\fs24  esta agrupando por departamento com o  }{\b\fs24 dept_id}{\fs24  e depois  por }{\b\fs24 salário}{\fs24  (dentro do grupo departamento) podemos constatar a melhor verificação do exemplo no departamento 41 onde o salário vem por ordem decrescente.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME,DEPT_ID,SALARY
+\par   2  FROM S_EMP
+\par   3  ORDER BY DEPT_ID,SALARY DESC;
+\par 
+\par LAST_NAME                   DEPT_ID    SALARY
+\par ------------------------- --------- ---------
+\par Quick-To-See                     10      1450
+\par Nagayama                         31      1400
+\par Magee                            31      1400
+\par Giljum                           32      1490
+\par Sedeghi                          33      1515
+\par Nguyen                           34      1525
+\par Patel                            34       795
+\par Dumas                            35      1450
+\par Ngao                             41      1450
+\par Maduro                           41      1400
+\par Urguhart                         41      1200
+\par Smith                            41       940
+\par Menchu                           42      1250
+\par Nozaki                           42      1200
+\par Patel                            42       795
+\par Biri                             43      1100
+\par Markarian                        43       850
+\par Newman                           43       750
+\par Catchpole                        44      1300
+\par Chang                            44       800
+\par Havel                            45      1307
+\par 
+\par LAST_NAME                   DEPT_ID    SALARY
+\par ------------------------- --------- ---------
+\par Schwartz                         45      1100
+\par Dancs                            45       860
+\par Velasquez                        50      2500
+\par Ropeburn                         50      1550
+\par 
+\par 25 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Observação: se colocarmos duas ordenações incompatíveis de execução, o sql irá reconhecer a primeira da seqüência, observe que o exemplo abaixo mostra claramente isto. Observe  também o departamento 41, onde o sql ordena primeiro por departamento e depois por nome (last_name) e despreza a coluna salary porque dentro da prioridade ela é a última. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME,DEPT_ID,SALARY
+\par   2  FROM S_EMP
+\par   3  ORDER BY DEPT_ID, LAST_NAME, SALARY DESC;
+\par 
+\par LAST_NAME                   DEPT_ID    SALARY
+\par ------------------------- --------- ---------
+\par Quick-To-See                     10      1450
+\par Magee                            31      1400
+\par Nagayama                         31      1400
+\par Giljum                           32      1490
+\par Sedeghi                          33      1515
+\par Nguyen                           34      1525
+\par Patel                            34       795
+\par Dumas                            35      1450
+\par Maduro                           41      1400
+\par Ngao                             41      1450
+\par Smith                            41       940
+\par Urguhart                         41      1200
+\par Menchu                           42      1250
+\par Nozaki                           42      1200
+\par Patel                            42       795
+\par Biri                             43      1100
+\par Markarian                        43       850
+\par Newman                           43       750
+\par Catchpole                        44      1300
+\par Chang                            44       800
+\par Dancs                            45       860
+\par 
+\par LAST_NAME                   DEPT_ID    SALARY
+\par ------------------------- --------- ---------
+\par Havel                            45      1307
+\par Schwartz                         45      1100
+\par Ropeburn                         50      1550
+\par Velasquez                        50      2500
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par Finalidade do capítulo é mostrar o uso do }{\b\fs24 LENGTH }{\fs24 e também como }{\b\fs24 concatenar.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\b\fs24 
+\par }{\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O uso do }{\b\fs24 length}{\fs24 : serve par contar a quantidade de espaços, incluindo caracteres que um determinado registro ocupa.
+\par O uso do }{\b\fs24 "substr"}{\fs24  : serve para localizar de forma física determinadas posições de um determinado registro.
+\par No exemplo abaixo vemos como que o cmdo }{\b\fs24 "substr}{\fs24 " ajuda a 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 encontrarmos determinadas posições dentro de uma clausula where.
+\par   
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT name, LENGTH(name)
+\par   2  FROM S_PRODUCT
+\par   3  WHERE SUBSTR(NAME,1,5) = 'Black';
+\par 
+\par NAME                 LENGTH(NAME)
+\par -------------------- ------------
+\par Black Hawk Knee Pads      20
+\par Black Hawk Elbow Pads     21
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Concatenando colunas distantes usando o }{\b\fs24 CONCAT,}{\fs24  observe que estamos concatenado duas colunas e jogando-as dentro de uma mesma coluna:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT CONCAT(NAME,COUNTRY) CLIENTE
+\par   2  FROM S_CUSTOMER
+\par   3  WHERE UPPER (CREDIT_RATING) = 'GOOD'
+\par   4  ;
+\par 
+\par CLIENTE
+\par ---------------------------------------------------
+\par Delhi SportsIndia
+\par Sweet Rock SportsNigeria
+\par Muench SportsGermany
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par Finalidade do capítulo é mostrar algumas manipulações com datas:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No próximo exemplo vemos o uso do }{\b\fs24 sysdate}{\fs24  que corresponde a data do sistema, que está sendo subtraído pela coluna }{\b\fs24 start_date}{\fs24  e dividido por 7 para verificar quantas semanas existem  entre a data do }{\b\fs24 start_date}{\fs24  e }{\b\fs24 sysdate}{\fs24  isto referente ao departamento 43.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, (SYSDATE-START_DATE)/7 SEMANAS
+\par   2  FROM S_EMP
+\par   3  WHERE DEPT_ID = 43;
+\par 
+\par LAST_NAME                   SEMANAS
+\par ------------------------- ---------
+\par Biri                       397.5229
+\par Newman                    330.38004
+\par Markarian                 338.38004
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo seguinte deveria mostrar em }{\b\fs24 tenure}{\fs24  a quantidade de meses existentes entre }{\b\fs24 sysdate}{\fs24  e }{\b\fs24 start_date}{\fs24  e depois usando o comdo }{\b\fs24 "add_months"}{\fs24  mostrar em }{\b\fs24 review}{\fs24  a data correspondente a 6 meses a mais de }{\b\fs24 start_date,}{\fs24  mas não mostra porque não satisfaz a clausula }{\b\fs24 where}{\fs24  pois pede que traga os dados entre o }{\b\fs24 sysdate}{\fs24  e o }{\b\fs24 start_date}{\fs24  em 48 meses, coisa que não existe:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24  Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> SELECT ID,START_DATE,
+\par   2  MONTHS_BETWEEN( SYSDATE-START_DATE) TENURE,
+\par   3  ADD_MONTHS(START_DATE,6) REVIEW
+\par   4  FROM S_EMP
+\par   5  WHERE MONTHS_BETWEEN (SYSDATE,START_DATE)<48;
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi567\nowidctlpar\widctlpar\adjustright {\fs24 Agora no exemplo abaixo, satisfazendo a clausula }{\b\fs24 where}{\fs24  da quantidade de meses na função }{\b\fs24 between}{\fs24  podemos ver na coluna }{\b\fs24 tenure }{\fs24 a quantidade de meses entre o }{\b\fs24 sysdate}{\fs24  e }{\b\fs24 start_date}{\fs24  e em }{\b\fs24 rewiew}{\fs24  mostra o }{\b\fs24 start_date}{\fs24  acrescido de 6 meses.
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> SELECT ID,START_DATE,
+\par   2  MONTHS_BETWEEN(SYSDATE,START_DATE) TENURE,
+\par   3  ADD_MONTHS(START_DATE,6) REVIEW
+\par   4  FROM S_EMP
+\par   5  WHERE MONTHS_BETWEEN (SYSDATE,START_DATE)<72;
+\par 
+\par        ID START_DAT    TENURE REVIEW
+\par --------- --------- --------- ---------
+\par         9 09-FEB-92 69.311978 09-AUG-92
+\par        12 18-JAN-92        70 18-JUL-92
+\par        14 22-JAN-92 69.892624 22-JUL-92
+\par        16 07-FEB-92 69.376495 07-AUG-92
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Uma nova versão do exemplo anterior:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT ID,START_DATE,
+\par   2  MONTHS_BETWEEN(SYSDATE,START_DATE) TENURE,
+\par   3  ADD_MONTHS(START_DATE,6) REVIEW
+\par   4  FROM S_EMP
+\par   5  WHERE MONTHS_BETWEEN (SYSDATE,START_DATE)<84;
+\par 
+\par        ID START_DAT    TENURE REVIEW
+\par --------- --------- --------- ---------
+\par         3 17-JUN-91 77.054026 17-DEC-91
+\par         6 18-JAN-91        82 18-JUL-91
+\par         9 09-FEB-92  69.31209 09-AUG-92
+\par        10 27-FEB-91 80.731445 27-AUG-91
+\par        12 18-JAN-92        70 18-JUL-92
+\par        13 18-FEB-91        81 18-AUG-91
+\par        14 22-JAN-92 69.892736 22-JUL-92
+\par        15 09-OCT-91  73.31209 09-APR-92
+\par        16 07-FEB-92 69.376607 07-AUG-92
+\par        18 09-FEB-91  81.31209 09-AUG-91
+\par        19 06-AUG-91 75.408865 06-FEB-92
+\par        20 21-JUL-91 75.924994 21-JAN-92
+\par        21 26-MAY-91 77.763703 26-NOV-91
+\par        22 30-NOV-90 83.634671 31-MAY-91
+\par        24 17-MAR-91 80.054026 17-SEP-91
+\par        25 09-MAY-91  78.31209 09-NOV-91
+\par 
+\par 16 rows selected.
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 A função }{\b\fs24 trunc}{\fs24  e }{\b\fs24 round}{\fs24 :
+\par O exemplo abaixo mostra como usar a função round com a seguinte característica:
+\par O }{\b\fs24 round}{\fs24  respeita o dia dos meses, se for maior que 15 arredonda para o inicio do próximo mês, se não for vai para o  inicio do mês que se encontra.
+\par O comando }{\b\fs24 trunc}{\fs24  trunca sempre para o inicio do mês que se encontra.
+\par 
+\par Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> SELECT ID,START_DATE,
+\par   2  ROUND(START_DATE,'MONTH'),
+\par   3  TRUNC(START_DATE,'MONTH')
+\par   4  FROM S_EMP
+\par   5  WHERE START_DATE LIKE '%91';
+\par 
+\par        ID START_DAT ROUND(STA TRUNC(STA
+\par --------- --------- --------- ---------
+\par         3 17-JUN-91 01-JUL-91 01-JUN-91
+\par         6 18-JAN-91 01-FEB-91 01-JAN-91
+\par        10 27-FEB-91 01-MAR-91 01-FEB-91
+\par        13 18-FEB-91 01-MAR-91 01-FEB-91
+\par        15 09-OCT-91 01-OCT-91 01-OCT-91
+\par        18 09-FEB-91 01-FEB-91 01-FEB-91
+\par        19 06-AUG-91 01-AUG-91 01-AUG-91
+\par        20 21-JUL-91 01-AUG-91 01-JUL-91
+\par        21 26-MAY-91 01-JUN-91 01-MAY-91
+\par        24 17-MAR-91 01-APR-91 01-MAR-91
+\par        25 09-MAY-91 01-MAY-91 01-MAY-91
+\par 
+\par 11 rows selected.
+\par 
+\par  
+\par }{\b\fs36 FINAL DE CAPÍTULO. }{\fs24 Finalidade do capítulo é o uso da função }{\b\fs24 MOD.}{\fs24 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 A função }{\b\fs24 mod}{\fs24  traz o resto de uma divisão. Neste exemplo temos uma seleção de registros dentro da tabela }{\b\fs24 s_emp}{\fs24  onde o salário é maior que 1400.
+\par  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select LAST_NAME,MOD(SALARY,COMMISSION_PCT)
+\par   2  FROM S_EMP
+\par   3  WHERE SALARY>1400;
+\par 
+\par LAST_NAME                 MOD(SALARY,COMMISSION_PCT)
+\par ------------------------- --------------------------
+\par Velasquez
+\par Ngao
+\par Quick-To-See
+\par Ropeburn
+\par Giljum                                           2.5
+\par Sedeghi                                            5
+\par Nguyen                                            10
+\par Dumas                                             15
+\par 
+\par 8 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora neste exemplo temos a seleção de todos os
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 registros onde o salário é maior que 1400 e também possui comissão nula.
+\par   
+\par SQL> select LAST_NAME,MOD(SALARY,COMMISSION_PCT)
+\par   2  FROM S_EMP
+\par   3  WHERE SALARY>1400
+\par   4  and commission_pct is null;
+\par 
+\par LAST_NAME                 MOD(SALARY,COMMISSION_PCT)
+\par ------------------------- --------------------------
+\par Velasquez
+\par Ngao
+\par Quick-To-See
+\par Ropeburn
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Neste exemplo temos somente aqueles que ganham mais de 1400 e possui comissão.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   
+\par SQL> select LAST_NAME,MOD(SALARY,COMMISSION_PCT)
+\par   2  FROM S_EMP
+\par   3  WHERE SALARY>1400
+\par   4  and commission_pct is not null;
+\par 
+\par LAST_NAME                 MOD(SALARY,COMMISSION_PCT)
+\par ------------------------- --------------------------
+\par Giljum                                           2.5
+\par Sedeghi                                            5
+\par Nguyen                                            10
+\par Dumas                                             15
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid {\f2\fs24 
+\par }\pard\plain \s15\nowidctlpar\widctlpar\adjustright \f2\fs20\lang1046\cgrid {\fs24 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par Finalidade do capítulo é fazer arredondamentos de valores usando }{\b\fs24 "ROUND" e o "TRUNC".
+\par 
+\par }{\fs24 Vamos ao Exemplo:
+\par SQL> select round(45.923,2), round(45.923,0),
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   2  round(45.923,-1)
+\par   3  from sys.dual;
+\par 
+\par ROUND(45.923,2) ROUND(45.923,0) ROUND(45.923,-1)
+\par --------------- --------------- ----------------
+\par           45.92              46               50
+\par 
+\par 
+\par SQL> select trunc(45.923,2),trunc(45.923,0),
+\par trunc(45.923,-1)
+\par from sys.dual
+\par 
+\par TRUNC(45.923,2) TRUNC(45.923,0) TRUNC(45.923,-1)
+\par --------------- --------------- ----------------
+\par           45.92              45               40
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page Finalidade do capítulo é tratar o uso do}{\b\fs24  SELECT,NVL,DISTINCT.
+\par }{\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O comando }{\b\fs24 SELECT}{\fs24  usado no exemplo abaixo é básico, pois serve para selecionar todas as linhas da tabela s_dept, não fazendo neste caso nenhuma distinção.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par  SQL> select * from s_dept;
+\par 
+\par        ID NAME                      REGION_ID
+\par --------- ------------------------- ---------
+\par        10 Finance                           1
+\par        31 Sales                             1
+\par        32 Sales                             2
+\par        33 Sales                             3
+\par        34 Sales                             4
+\par        35 Sales                             5
+\par        41 Operations                        1
+\par        42 Operations                        2
+\par        43 Operations                        3
+\par        44 Operations                        4
+\par        45 Operations                        5
+\par        50 Administration                    1
+\par 
+\par 12 rows selected.
+\par 
+\par 
+\par Agora o comando select é usado para trazer valores de colunas especificas onde o nome das colunas vem entre vírgulas. A tabela }{\b\fs24 s_dept}{\fs24  tem como colunas, }{\b\fs24 id}{\fs24 ,}{\b\fs24 name}{\fs24  e }{\b\fs24 region_id}{\fs24 , mas neste caso só está sendo trazido }{\b\fs24 id}{\fs24  e }{\b\fs24 regiao_id}{\fs24 .
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  select ID,REGION_ID FROM S_DEPT;
+\par 
+\par        ID REGION_ID
+\par --------- ---------
+\par        10         1
+\par        31         1
+\par        32         2
+\par        33         3
+\par        34         4
+\par        35         5
+\par        41         1
+\par        42         2
+\par        43         3
+\par        44         4
+\par        45         5
+\par        50         1
+\par 
+\par 12 rows selected.
+\par 
+\par No exemplo abaixo estamos mostrando como trazer campos distintos de uma determinada tabela, ou seja campos que não se repetem. Na coluna name tem vários campos repetidos, veja no exemplo:
+\par 
+\par SQL> SELECT NAME FROM S_DEPT;
+\par 
+\par NAME
+\par -------------------------
+\par Finance
+\par Sales
+\par Sales
+\par Sales
+\par Sales
+\par Sales
+\par Operations
+\par Operations
+\par Operations
+\par Operations
+\par Operations
+\par Administration
+\par 
+\par 12 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usando o comando }{\b\fs24 distinct}{\fs24  na coluna }{\b\fs24 name}{\fs24  da tabela }{\b\fs24 s_dept}{\fs24  poderemos obter nomes distintos, sem valor repetido para a coluna }{\b\fs24 name}{\fs24  de }{\b\fs24 s_dept}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT DISTINCT NAME FROM S_DEPT;
+\par 
+\par NAME
+\par -------------------------
+\par Administration
+\par Finance
+\par Operations
+\par Sales
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora podemos ver como separar em grupos sem repetição os nomes por região, os nomes aparecem conforme existam nas regiões e as regiões que aparecem conforme tenham nomes.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  SELECT DISTINCT NAME,REGION_ID
+\par   2  FROM S_DEPT;
+\par 
+\par NAME                      REGION_ID
+\par ------------------------- ---------
+\par Administration                    1
+\par Finance                           1
+\par Operations                        1
+\par Operations                        2
+\par Operations                        3
+\par Operations                        4
+\par Operations                        5
+\par Sales                             1
+\par Sales                             2
+\par Sales                             3
+\par Sales                             4
+\par Sales                             5
+\par 
+\par 12 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 A função }{\b\fs24 select}{\fs24  permite que seja feito expressões aritméticas manipulando os valores de seus campos. No exemplo abaixo os valores da coluna }{\b\fs24 salary}{\fs24 , estão sendo multiplicados por 12 e assumem seus novos valores na própria coluna. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par SQL> SELECT LAST_NAME,SALARY * 12 FROM
+\par S_EMP;
+\par 
+\par 
+\par Exemplo de expressão:
+\par 
+\par SQL>  select id,last_name,round(salary+(salary*15/10
+\par   2  ),0) " NOVO SALÁRIO" FROM S_EMP;
+\par 
+\par        ID LAST_NAME                  NOVO SALÁRIO
+\par --------- ------------------------- -------------
+\par         1 Velasquez                          2875
+\par         2 Ngao                               1668
+\par         3 Nagayama                           1610
+\par         4 Quick-To-See                       1668
+\par         5 Ropeburn                           1783
+\par         6 Urguhart                           1380
+\par         7 Menchu                             1438
+\par         8 Biri                               1265
+\par         9 Catchpole                          1495
+\par        10 Havel                              1503
+\par        11 Magee                              1610
+\par        12 Giljum                             1714
+\par        13 Sedeghi                            1742
+\par        14 Nguyen                             1754
+\par        15 Dumas                              1668
+\par        16 Maduro                             1610
+\par        17 Smith                              1081
+\par        18 Nozaki                             1380
+\par        19 Patel                               914
+\par        20 Newman                              863
+\par        21 Markarian                           978
+\par 
+\par        ID LAST_NAME                  NOVO SALÁRIO
+\par --------- ------------------------- -------------
+\par        22 Chang                               920
+\par        23 Patel                               914
+\par        24 Dancs                               989
+\par        25 Schwartz                           1265
+\par 
+\par 25 rows selected.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No  exemplo abaixo temos o uso da função }{\b\fs24 nvl}{\fs24 , que tem a finalidade de trazer campos que tem valores nulos atribuindo - lhes o valor zero.
+\par Vamos ao Exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, TITLE,  2  SALARY*COMMISSION_PCT/100 COMISSAO
+\par   3  FROM S_EMP;
+\par 
+\par LAST_NAME                 TITLE                      COMISSAO
+\par ------------------------- ------------------------- ---------
+\par Velasquez                 President
+\par Ngao                      VP, Operations
+\par Nagayama                  VP, Sales
+\par Quick-To-See              VP, Finance
+\par Ropeburn                  VP, Administration
+\par Urguhart                  Warehouse Manager
+\par Menchu                    Warehouse Manager
+\par Biri                      Warehouse Manager
+\par Catchpole                 Warehouse Manager
+\par Havel                     Warehouse Manager
+\par Magee                     Sales Representative            140
+\par Giljum                    Sales Representative         186.25
+\par Sedeghi                   Sales Representative          151.5
+\par Nguyen                    Sales Representative         228.75
+\par Dumas                     Sales Representative         253.75
+\par Maduro                    Stock Clerk
+\par Smith                     Stock Clerk
+\par Nozaki                    Stock Clerk
+\par Patel                     Stock Clerk
+\par Newman                    Stock Clerk
+\par Markarian                 Stock Clerk
+\par 
+\par LAST_NAME                 TITLE                      COMISSAO
+\par ------------------------- ------------------------- ---------
+\par Chang                     Stock Clerk
+\par Patel                     Stock Clerk
+\par Dancs                     Stock Clerk
+\par Schwartz                  Stock Clerk
+\par 
+\par 25 rows selected.
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Observe que no exemplo anterior os campos com valores nulos vieram em branco veja agora que usando a função }{\b\fs24 nvl}{\fs24  apareceu o valor zero nos campos nulos.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, TITLE,
+\par   2  SALARY*NVL(COMMISSION_PCT,0)/100 COMISSAO
+\par   3  FROM S_EMP;
+\par 
+\par LAST_NAME                 TITLE                      COMISSAO
+\par ------------------------- ------------------------- ---------
+\par Velasquez                 President                         0
+\par Ngao                      VP, Operations                    0
+\par Nagayama                  VP, Sales                         0
+\par Quick-To-See              VP, Finance                       0
+\par Ropeburn                  VP, Administration                0
+\par Urguhart                  Warehouse Manager                 0
+\par Menchu                    Warehouse Manager                 0
+\par Biri                      Warehouse Manager                 0
+\par Catchpole                 Warehouse Manager                 0
+\par Havel                     Warehouse Manager                 0
+\par Magee                     Sales Representative            140
+\par Giljum                    Sales Representative         186.25
+\par Sedeghi                   Sales Representative          151.5
+\par Nguyen                    Sales Representative         228.75
+\par Dumas                     Sales Representative         253.75
+\par Maduro                    Stock Clerk                       0
+\par Smith                     Stock Clerk                       0
+\par Nozaki                    Stock Clerk                       0
+\par Patel                     Stock Clerk                       0
+\par Newman                    Stock Clerk                       0
+\par Markarian                 Stock Clerk                       0
+\par 
+\par LAST_NAME                 TITLE                      COMISSAO
+\par ------------------------- ------------------------- ---------
+\par Chang                     Stock Clerk                       0
+\par Patel                     Stock Clerk                       0
+\par Dancs                     Stock Clerk                       0
+\par Schwartz                  Stock Clerk                       0
+\par 
+\par 25 rows selected.
+\par /
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Um exemplo de }{\b\fs24 SELECT }{\fs24 com várias funções:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O comando }{\b\fs24 lower}{\fs24  serve para transformarmos os dados de pesquisa em letra minúscula, o cmdo }{\b\fs24 initcap}{\fs24  serve para converter a primeira letra em maiúscula e o cmdo }{\b\fs24 upper}{\fs24  serve para converter em maiúsculo, no exemplo abaixo estamos fazendo primeiro uma concatenação e depois usando a clausula where para trazermos os registros que tem como inicial as letras vp, com o  cmdo }{\b\fs24 like}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SELECT LOWER(FIRST_NAME||' '||LAST_NAME) VP,
+\par INITCAP(userid)USERID,
+\par UPPER (TITLE) TITLE
+\par FROM S_EMP
+\par WHERE TITLE LIKE 'VP%'
+\par 
+\par 
+\par 
+\par VP                                                  USERID   TITLE
+\par --------------------------------------------------- -------- --------------------
+\par ladoris ngao                                        Lngao    VP, OPERATIONS
+\par midori nagayama                                     Mnagayam VP, SALES
+\par mark quick-to-see                                   Mquickto VP, FINANCE
+\par audry ropeburn                                      Aropebur VP, ADMINISTRATION
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24  Observe no exemplo abaixo que não foi realizada a pesquisa porque o dado da tabela não corresponde ao formato pedido.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT FIRST_NAME,LAST_NAME
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME = 'PATEL';
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usando o cmdo }{\b\fs24 " lower "}{\fs24  fazemos a conversão, para a pesquisa , para letra minúscula possibilitando assim o sucesso da execução do exemplo anterior:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  SELECT FIRST_NAME,LAST_NAME
+\par   2   FROM S_EMP
+\par   3   WHERE LOWER(LAST_NAME) = 'patel';
+\par 
+\par FIRST_NAME                LAST_NAME
+\par ------------------------- -------------------
+\par Vikram                    Patel
+\par Radha                     Patel
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usamos o cmdo }{\b\fs24 "upper"}{\fs24  para fazermos a conversão para maiúscula.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT FIRST_NAME,LAST_NAME
+\par   2  FROM S_EMP
+\par   3  WHERE UPPER (LAST_NAME) = 'PATEL';
+\par 
+\par FIRST_NAME                LAST_NAME
+\par ------------------------- -------------------
+\par Vikram                    Patel
+\par Radha                     Patel
+\par }{\b\fs36 
+\par FINAL DE CAPÍTULO
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24  \page 
+\par Finalidade do capítulo é tratar sobre }{\b\fs24 SELF JOINS.
+\par 
+\par }{\fs24 O }{\b\fs24 SELF JOINS}{\fs24  é definido por  um alto relacionamento ,podemos descrever o exemplo abaixo da seguinte forma: todos os }{\b\fs24 EMP}{\fs24  da tabela }{\b\fs24 S_EMP}{\fs24  possuem uma coluna }{\b\fs24 ID}{\fs24   e uma coluna }{\b\fs24 MANAGER_ID}{\fs24 , portanto queremos saber quem é o gerente de cada funcionário, para isso verificamos o }{\b\fs24 MANAGER_ID}{\fs24  que contem um valor correspondente ao }{\b\fs24 ID}{\fs24  de }{\b\fs24 EMP}{\fs24  e então a partir do valor de }{\b\fs24 MANAGER_ID}{\fs24  descobrimos quem é o gerente do }{\b\fs24 EMP}{\fs24 . No exemplo abaixo é bom verificar a concatenação. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> select worker.last_name|| ' trabalha para ' ||
+\par   2  manager.last_name
+\par   3  from   s_emp worker, s_emp manager
+\par   4  where worker.manager_id = manager.id;
+\par 
+\par WORKER.LAST_NAME||'TRABALHAPARA'||MANAGER.LAST_NAME
+\par -------------------------------------------------------
+\par Ngao trabalha para Velasquez
+\par Nagayama trabalha para Velasquez
+\par Quick-To-See trabalha para Velasquez
+\par Ropeburn trabalha para Velasquez
+\par Urguhart trabalha para Ngao
+\par Menchu trabalha para Ngao
+\par Biri trabalha para Ngao
+\par Catchpole trabalha para Ngao
+\par Havel trabalha para Ngao
+\par Magee trabalha para Nagayama
+\par Giljum trabalha para Nagayama
+\par Sedeghi trabalha para Nagayama
+\par Nguyen trabalha para Nagayama
+\par Dumas trabalha para Nagayama
+\par Maduro trabalha para Urguhart
+\par Smith trabalha para Urguhart
+\par Nozaki trabalha para Menchu
+\par Patel trabalha para Menchu
+\par Newman trabalha para Biri
+\par Markarian trabalha para Biri
+\par Chang trabalha para Catchpole
+\par Schwartz trabalha para Havel
+\par 
+\par 24 rows selected.
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par Finalidade do capítulo é tratar sobre }{\b\fs24 SEQUENCE.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para ver se existe uma sequence selecionamos o objeto no select }{\b\fs24 object_name}{\fs24  colocando a clausula }{\b\fs24 where}{\fs24  com o }{\b\fs24 objeto_type}{\fs24  igual a sequence.
+\par  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  SQL>  SELECT OBJECT_name from user_objects
+\par   2   where object_type = 'SEQUENCE';
+\par 
+\par OBJECT_NAME
+\par -------------------------------------------
+\par S_CUSTOMER_ID
+\par S_DEPART_ID
+\par S_DEPT_ID
+\par S_DEPT_ID_SEQ
+\par S_EMP_ID
+\par S_IMAGE_ID
+\par S_LONGTEXT_ID
+\par S_ORD_ID
+\par S_PRODUCT_ID
+\par S_REGION_ID
+\par S_WAREHOUSE_ID
+\par S_WORKER
+\par WORKER_ID_SEQ
+\par 
+\par 13 rows selected.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O que é uma SEQUENCE:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Sequence são números criados pelo ORACLE que fazem  a contagem de registros assumindo valores únicos, servindo de ID, uma SEQUENCE pode ser usada por mais de uma tabela, cada qual com seus números, sem que ocorra repetição é claro.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo seguinte mostra como criar uma }{\b\fs24 SEQUENCE}{\fs24 , o nome da SEQUENCE é }{\b\fs24 S_TESTE_id}{\fs24 , que está relacionada com o id da tabela}{\b\fs24  TESTE}{\fs24  ( tabela que foi criada  anteriormente), o }{\b\fs24 INCREMENTE BY}{\fs24  serve para  que a }{\b\fs24 SEQUENCE}{\fs24  evolua de  um valor, o }{\b\fs24 START WITH}{\fs24  serve para que a }{\b\fs24 SEQUENCE }{\fs24 comece com o numero 51, o }{\b\fs24 MAXVALUE}{\fs24  é o valor máximo que uma }{\b\fs24 SEQUENCE}{\fs24  pode assumir, }{\b\fs24 NOCACHE }{\fs24 especifica se será alocada a memória cash ou não, }{\b\fs24 NOCYCLE}{\fs24  serve para especificar ou não um ciclo de }{\b\fs24 SEQUENCE}{\fs24  ou seja os números vão contando em um ciclo de tempo determinado.
+\par  
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par Vamos ao Exemplo:
+\par 
+\par SQL> CREATE SEQUENCE S_TESTE_id
+\par   2  INCREMENT BY 1
+\par   3  START WITH 51
+\par   4  MAXVALUE 9999999
+\par   5  NOCACHE
+\par   6  NOCYCLE;
+\par 
+\par Sequence created.
+\par 
+\par Como mostrar todas as SEQUENCES que estão disponíveis para seu user:
+\par 
+\par SQL> select sequence_name, min_value, max_value,
+\par   2   increment_by,last_number
+\par   3  from user_sequences;
+\par 
+\par SEQUENCE_NAME MIN_VALUE MAX_VALUE INCREMENT_BY LAST_NUMBER
+\par -------------- --------- --------- ------------ -----------
+\par S_CUSTOMER_ID      1   9999999            1         216
+\par S_DEPT_ID          1   9999999            1          51
+\par S_EMP_ID           1   9999999            1          26
+\par S_IMAGE_ID         1   9999999            1        1981
+\par S_LONGTEXT_ID      1   9999999            1        1369
+\par S_ORD_ID           1   9999999            1         113
+\par S_PRODUCT_ID       1   9999999            1       50537
+\par S_REGION_ID        1   9999999            1           6
+\par S_TESTE            1   9999999            1          51
+\par S_TESTE_ID         1   9999999            1          51
+\par S_WAREHOUSE_ID     1   9999999            1       10502
+\par 
+\par 11 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo estamos criando uma }{\b\fs24 SEQUENCE}{\fs24  para o ID de s_dept, foi escolhido como nome para a SEQUENCE }{\b\fs24 s_dept_id}{\fs24 , sempre para }{\b\fs24 SEQUENCE}{\fs24  usa-se o "S" no começo do nome da sequence.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  SQL> CREATE SEQUENCE S_dept_id
+\par   2      INCREMENT BY 1
+\par   3      START WITH 51
+\par   4      MAXVALUE 9999999
+\par   5      NOCACHE
+\par   6      NOCYCLE;
+\par 
+\par Sequence created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O uso do }{\b\fs24 NEXTVAL:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos inserir valores dentro de }{\b\fs24 s_dept}{\fs24  sendo que um desses valores é o }{\b\fs24 NEXTVAL}{\fs24  que tem como função trazer para nós o próximo número da SEQUENCE e no caso especifico estamos inserindo em ID o valor da }{\b\fs24 SEQUENCE.
+\par }{\fs24 
+\par Veja abaixo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> insert into s_dept(id,name,region_id)
+\par   2  values     (s_dept_id.NEXTVAL,'FINANCE',2);
+\par 
+\par 1 row created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Verificando a inserção do }{\b\fs24 NEXTVAL}{\fs24 , como nossa }{\b\fs24 SEQUENCE}{\fs24  inicia em 51 o primeiro valor a ser inserido é 51.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT ID
+\par   2  FROM S_DEPT
+\par   3  WHERE NAME = 'FINANCE';
+\par 
+\par        ID
+\par ---------
+\par        51
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Alterando uma }{\b\fs24 SEQUENCE}{\fs24 : Para se alterar uma SEQUENCE temos que ter privilégios para tal, os valores passados não são alterados pela }{\b\fs24 SEQUENCE}{\fs24 , o }{\b\fs24 START WITH}{\fs24  de uma }{\b\fs24 SEQUENCE}{\fs24  não pode ser alterado, para alterá - lo temos que dropar a sequence, dropando-a não quer dizer que os valores já foram inseridos nas primary keys serão apagados eles já foram criados.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   
+\par SQL> EDIT
+\par Wrote file afiedt.buf
+\par   1  ALTER SEQUENCE S_DEPT_ID
+\par   2  INCREMENT BY 4
+\par   3  MAXVALUE 99999
+\par   4  CYCLE
+\par   5* NOCACHE
+\par SQL> /
+\par 
+\par Sequence altered.
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para dropar uma }{\b\fs24 SEQUENCE}{\fs24  temos que seguir os passos a seguir:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> DROP SEQUENCE s_dept_id;
+\par 
+\par Sequence dropped.
+\par 
+\par SQL> DROP SEQUENCE S_TESTE;
+\par 
+\par Sequence dropped.
+\par 
+\par SQL> DROP SEQUENCE S_TESTE_ID;
+\par 
+\par Sequence dropped.
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO
+\par 
+\par 
+\par }{\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Finalidade do capítulo é o uso de }{\b\fs24  SUBQUERYS:}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Uma }{\b\fs24 subquery}{\fs24  é um cmdo }{\b\fs24 select}{\fs24  dentro de um outro cmdo }{\b\fs24 select}{\fs24  onde retorna uma ou mais linhas a fim de satisfazer uma clausula }{\b\fs24 WHERE}{\fs24 .
+\par No exemplo abaixo temos um }{\b\fs24 select}{\fs24  em }{\b\fs24 s_emp}{\fs24  onde procuramos trazer o }{\b\fs24 last_name}{\fs24  e o }{\b\fs24 title}{\fs24 , onde o }{\b\fs24 title}{\fs24  pesquisado seja o mesmo do }{\b\fs24 " Smith"}{\fs24 , para isso é realizado uma }{\b\fs24 subquery}{\fs24  que nada mais é que um }{\b\fs24 select}{\fs24 , que neste caso retorna um valor somente para a comparação na where.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select last_name, title
+\par   2  from s_emp
+\par   3  where title =
+\par   4        (select  title
+\par   5         from s_emp
+\par   6         where last_name = 'Smith');
+\par 
+\par LAST_NAME                 TITLE
+\par ------------------------- -------------------------
+\par Maduro                    Stock Clerk
+\par Smith                     Stock Clerk
+\par Nozaki                    Stock Clerk
+\par Patel                     Stock Clerk
+\par Newman                    Stock Clerk
+\par Markarian                 Stock Clerk
+\par Chang                     Stock Clerk
+\par Patel                     Stock Clerk
+\par Dancs                     Stock Clerk
+\par Schwartz                  Stock Clerk
+\par 
+\par 10 rows selected.
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Outro exemplo de }{\b\fs24 subquery}{\fs24 , que neste caso está comparando os valores da coluna }{\b\fs24 SALARY}{\fs24  com a média dos salários da tabela s_emp. A função }{\b\fs24 AVG}{\fs24  está trazendo a média dos salários.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par   
+\par SQL> select last_name, title, salary
+\par   2  from s_emp
+\par   3  where salary<
+\par   4        (select avg(salary)
+\par   5        from s_emp);
+\par 
+\par LAST_NAME                 TITLE                        SALARY
+\par ------------------------- ------------------------- ---------
+\par Urguhart                  Warehouse Manager              1200
+\par Menchu                    Warehouse Manager              1250
+\par Biri                      Warehouse Manager              1100
+\par Smith                     Stock Clerk                     940
+\par Nozaki                    Stock Clerk                    1200
+\par Patel                     Stock Clerk                     795
+\par Newman                    Stock Clerk                     750
+\par Markarian                 Stock Clerk                     850
+\par Chang                     Stock Clerk                     800
+\par Patel                     Stock Clerk                     795
+\par Dancs                     Stock Clerk                     860
+\par Schwartz                  Stock Clerk                    1100
+\par 
+\par 12 rows selected.
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Nos exemplos anteriores vemos que retornavam só um único valor para comparação na clausula }{\b\fs24 where}{\fs24 , neste caso agora há o retorno de mais de um valor para a comparação na clausula where, mas para que ocorra a comparação com mais de um valor temos que usar o }{\b\fs24 IN}{\fs24  em vez do }{\b\fs24 "="}{\fs24  no exemplo abaixo ocorre um erro:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par SQL> select last_name, title
+\par   2   from s_emp
+\par   3   where dept_id =
+\par   4         (select id from s_dept
+\par   5           where name = 'finance or region_id = 2);
+\par select last_name, title
+\par *
+\par ERROR at line 1:
+\par ORA-01756: quoted string not properly terminated
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora usando o }{\b\fs24 IN}{\fs24  na clausula }{\b\fs24 where}{\fs24  poderá o dept_id ser comparado com as duas condições, o select trará os registros que na tabela }{\b\fs24 s_dept }{\fs24 que tenham o }{\b\fs24 nome}{\fs24  igual a }{\b\fs24 'Finace'}{\fs24  ou que a }{\b\fs24 region_id}{\fs24  seja igual a 2.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select last_name,first_name,title
+\par   2  from s_emp
+\par   3  where dept_id in
+\par   4        (select id
+\par   5         from s_dept
+\par   6         where name = 'Finance' or region_id =2);
+\par 
+\par LAST_NAME                 FIRST_NAME                TITLE
+\par ------------------------- ------------------------- -------------------------
+\par Quick-To-See              Mark                      VP, Finance
+\par Menchu                    Roberta                   Warehouse Manager
+\par Giljum                    Henry                     Sales Representative
+\par Nozaki                    Akira                     Stock Clerk
+\par Patel                     Vikram                    Stock Clerk
+\par 
+\par 
+\par 
+\par O uso do }{\b\fs24 having}{\fs24  em }{\b\fs24 subquery:}{\fs24 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Neste exemplo estamos querendo selecionar o }{\b\fs24 dept_id}{\fs24  e a média dos salários de }{\b\fs24 s_emp}{\fs24 , grupados pelo }{\b\fs24 dept_id}{\fs24 , com a condição de que a média dos salários de s_emp seja maior que a média dos salários do }{\b\fs24 dept 32}{\fs24  para isso usamos o }{\b\fs24 HAVING}{\fs24 .  
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select dept_id,avg(salary)
+\par   2  from   s_emp
+\par   3  group by dept_id
+\par   4  having  avg(salary)>
+\par   5          (select avg(salary)
+\par   6          from s_emp
+\par   7          where dept_id = 32);
+\par 
+\par   DEPT_ID AVG(SALARY)
+\par --------- -----------
+\par        33        1515
+\par        50        2025
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora dentro do }{\b\fs24 group by}{\fs24  estamos usando o }{\b\fs24 having }{\fs24 e dentro da }{\b\fs24 subquery}{\fs24  selecionando o menor valor da média da tabela }{\b\fs24 s_emp}{\fs24  grupado por }{\b\fs24 title}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> 
+\par   1  select title,avg(salary)
+\par   2  from   s_emp
+\par   3   group by title
+\par   4  having  avg(salary) =
+\par   5          (select min(avg(salary))
+\par   6           from s_emp
+\par   7*          group by title)
+\par 
+\par 
+\par TITLE                     AVG(SALARY)
+\par ------------------------- -----------
+\par Stock Clerk                       949
+\par 
+\par SQL> select min(avg(salary))
+\par   2  from s_emp
+\par   3  group by title;
+\par 
+\par MIN(AVG(SALARY))
+\par ----------------
+\par              949
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO
+\par }{\fs24 
+\par \page Finalidade do capítulo é tratar o }{\b\fs24 RENAME, TRUNCATE.
+\par }{\fs24 
+\par O }{\b\fs24 RENAME}{\fs24  é usado para renomear uma tabela,view etc.
+\par observe a sintaxe abaixo:
+\par 
+\par SQL> RENAME s_ord TO S_ORDER
+\par   2  ;
+\par 
+\par Table renamed.
+\par 
+\par O CMDO }{\b\fs24 TRUNCATE}{\fs24  é responsável por deletar os registros de uma tabela da mesma forma do }{\b\fs24 DELETE}{\fs24  com a diferença que o }{\b\fs24 TRUNCATE}{\fs24  libera espaço na tabela, para usar o CMDO }{\b\fs24 TRUNCATE }{\fs24 tem que ser dono da tabela ou ter permissão para isto. Se houver }{\b\fs24 constraints}{\fs24  o cmdo truncate não funciona, tem que usar o }{\b\fs24 DISABLE}{\fs24  }{\b\fs24 constraints}{\fs24  para desabilitar as }{\b\fs24 constraints}{\fs24 .
+\par 
+\par SQL> TRUNCATE TABLE S_ITEM;
+\par 
+\par Table truncated.
+\par 
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page Finalidade do capítulo é tratar sobre o comando }{\b\fs24 UPDATE.}{\fs24 
+\par 
+\par O CMDO }{\b\fs24 UPDATE}{\fs24  serve para fazermos alterações em registros dentro de  nossa tabela observe os exemplos abaixo:
+\par 
+\par 
+\par Estamos vendo o nr do dept onde o id é igual a 2: 
+\par SQL> select dept_id
+\par   2  from
+\par   3  S_EMP
+\par   4  where id = 2;
+\par 
+\par   DEPT_ID
+\par ---------
+\par        41
+\par 
+\par 
+\par Agora todos que tiverem nr do id igual a 2 passará a ter o id do dept igual a 10.
+\par 
+\par SQL> UPDATE S_EMP
+\par   2  SET dept_id = 10
+\par   3  WHERE id = 2;
+\par 
+\par 1 row updated.
+\par 
+\par Verificando se realmente se concretizou o }{\b\fs24 UPDATE}{\fs24 
+\par 
+\par SQL> select dept_id
+\par   2  from
+\par   3  S_EMP
+\par   4  where id = 2;
+\par 
+\par   DEPT_ID
+\par ---------
+\par        10
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos selecionado dept_id, salary de s_emp onde o id for igual a 1.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select dept_id,salary
+\par   2  from s_emp
+\par   3  where id = 1;
+\par 
+\par   DEPT_ID    SALARY
+\par --------- ---------
+\par        50      2500
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos alterar os valores de }{\b\fs24 dept_id}{\fs24  para 32 e de }{\b\fs24 salary}{\fs24  para 2550 onde o }{\b\fs24 id}{\fs24  for igual a 1.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> UPDATE s_emp
+\par   2  SET dept_id = 32, salary = 2550
+\par   3  where id = 1;
+\par 
+\par 1 row updated.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Verificando a concretização da mudança.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select dept_id,salary
+\par   2  from s_emp
+\par   3  where id = 1;
+\par 
+\par   DEPT_ID    SALARY
+\par --------- ---------
+\par        32      2550
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Quando não usamos a clausula }{\b\fs24 where}{\fs24  no }{\b\fs24 UPDATE}{\fs24  fazemos alterações em todos os registros da tabela, no caso estamos mudando todos os  campos de }{\b\fs24 commission_pct}{\fs24  para 10 sem distinção.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> UPDATE S_EMP
+\par   2  SET commission_pct = 10;
+\par 
+\par 26 rows updated.
+\par 
+\par Neste exemplo estamos tentando fazer uma alteração em um valor que  é uma }{\b\fs24 FOREIKEY}{\fs24 , e o valor que queremos adicionar não existe na tabela de origem da FK portanto irá ferir uma constraint.
+\par  \tab  
+\par SQL> UPDATE S_EMP
+\par   2  SET DEPT_ID = 60
+\par   3  WHERE DEPT_ID = 10;
+\par UPDATE S_EMP
+\par        *
+\par ERROR at line 1:
+\par ORA-02291: integrity constraint (GUIMA.S_EMP_DEPT_ID_FK) violated - parent key not found
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora no próximo exemplo estamos verificando quais são os }{\b\fs24 dept_id}{\fs24  que fazem relação com s_emp.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select dept_id
+\par   2  from s_emp;
+\par 
+\par   DEPT_ID
+\par ---------
+\par        32
+\par        41
+\par        31
+\par        10
+\par        50
+\par        41
+\par        42
+\par        43
+\par        44
+\par        45
+\par        31
+\par        32
+\par        33
+\par        34
+\par        35
+\par        41
+\par        41
+\par        42
+\par        42
+\par        43
+\par        43
+\par 
+\par   
+\par 
+\par 
+\par 26 rows selected.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos fazer a alteração de dept_id passando todos que são 10 para 40 e não irá violar a constraint porque o valor 40 existe na tabela }{\b\fs24 DEPT}{\fs24 . como se pode observar no select anterior.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par SQL> UPDATE S_EMP
+\par   2  SET DEPT_ID = 41
+\par   3  WHERE DEPT_ID = 10;
+\par 
+\par 1 row updated.
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 \page Finalidade do capítulo é  tratar sobre }{\b\fs24 VIEW.
+\par }{\fs24 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Uma VIEW é como se fosse uma janela que dá acesso aos dados da tabela, só que com restrições. No exemplo abaixo estamos criando uma VIEW usando uma SUBQUERY, trazendo dados específicos de uma tabela.Vamos ao exemplo:
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 SQL> CREATE VIEW empvu45  2  AS SELECT   id,last_name,title
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   3  FROM        s_emp
+\par   4  WHERE       dept_id = 45;
+\par 
+\par View created.
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos agora realizando um }{\b\fs24 select }{\fs24 em nossa VIEW:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select * from
+\par   2  empvu45;
+\par 
+\par        ID LAST_NAME                 TITLE
+\par --------- ------------------------- -------------------------
+\par        10 Havel                     Warehouse Manager
+\par        24 Dancs                     Stock Clerk
+\par        25 Schwartz                  Stock Clerk
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos fazendo um }{\b\fs24 select }{\fs24 na tabela }{\b\fs24 S_EMP, }{\fs24 referente ao }{\b\fs24 dept_id}{\fs24  45 e vemos que nossa }{\b\fs24 VIEW}{\fs24  é idêntica.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select id,last_name,title
+\par   2  FROM        s_emp
+\par   3  WHERE       dept_id = 45;
+\par 
+\par        ID LAST_NAME                 TITLE
+\par --------- ------------------------- -------------------------
+\par        10 Havel                     Warehouse Manager
+\par        24 Dancs                     Stock Clerk
+\par        25 Schwartz                  Stock Clerk
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Criando uma }{\b\fs24 VIEW}{\fs24   usando }{\b\fs24 ALIASES}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> CREATE VIEW salvu41
+\par   2  AS SELECT id,first_name PRIMEIRO,
+\par   3  last_name ULTIMO, salary SALARIO_MENSAL
+\par   4  FROM
+\par   5  s_emp
+\par   6  WHERE dept_id = 41;
+\par 
+\par View created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vendo a VIEW criada:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> desc  salvu41
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  ID                              NOT NULL NUMBER(7)
+\par  PRIMEIRO                                 VARCHAR2(25)
+\par  ULTIMO                          NOT NULL VARCHAR2(25)
+\par  SALARIO_MENSAL                           NUMBER(11,2)
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Mais um exemplo de como criar uma }{\b\fs24 VIEW:
+\par }{\fs24 
+\par Estamos criando uma VIEW chamada}{\b\fs24  "dept_sum_vu"}{\fs24  com os nomes de colunas criados por eu da forma que achar melhor, observe que está sendo realizado uma }{\b\fs24 SUBQUERY}{\fs24  e um }{\b\fs24 JOIN}{\fs24  dentro da }{\b\fs24 SUBQUERY}{\fs24  entre as tabelas }{\b\fs24 s_emp}{\fs24  e }{\b\fs24 s_dept}{\fs24 , onde pega-se o menor salário função }{\b\fs24 MIN}{\fs24 , o maior salário(função }{\b\fs24 MAX}{\fs24 ) a média dos salários(função }{\b\fs24 AVG}{\fs24 ) com a condição estabelecida da clausula }{\b\fs24 WHERE}{\fs24  que não é mais que a ligação do }{\b\fs24 JOIN}{\fs24 , e por último nossa }{\b\fs24 VIEW}{\fs24  virá agrupada pelo }{\b\fs24 NOME}{\fs24  de }{\b\fs24 s_dept}{\fs24 .
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> EDIT
+\par Wrote file afiedt.buf
+\par   1  create VIEW dept_sum_vu
+\par   2  (name, minsal,maxsal, avgsal)
+\par   3  AS SELECT d.name, MIN  (e.salary),
+\par   4  MAX(e.salary),AVG(e.salary)
+\par   5  FROM s_emp e,s_dept d
+\par   6  WHERE e.dept_id = d.id
+\par   7* GROUP BY d.name
+\par SQL> /
+\par 
+\par View created.
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Este é o formato de nossa }{\b\fs24 VIEW}{\fs24 , verifique o nome das colunas correspondentes a }{\b\fs24 SUBQUERY}{\fs24  dentro do }{\b\fs24 CREATE VIEW}{\fs24 , e agrupados
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 por nome.
+\par 
+\par SQL> desc dept_sum_vu
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  NAME                            NOT NULL VARCHAR2(25)
+\par  MINSAL                                   NUMBER
+\par  MAXSAL                                   NUMBER
+\par  AVGSAL                                   NUMBER
+\par 
+\par Agora vamos fazer um select em }{\b\fs24 s_dept}{\fs24  e }{\b\fs24 s_emp}{\fs24  com um }{\b\fs24 JOIN}{\fs24  e depois vamos comparar os dados obtidos com o resultado obtido de nossa }{\b\fs24 VIEW}{\fs24 :
+\par 
+\par Wrote file afiedt.buf
+\par   1  SELECT d.name, MIN  (e.salary),
+\par   2  MAX(e.salary),AVG(e.salary)
+\par   3  FROM s_emp e,s_dept d
+\par   4  WHERE e.dept_id = d.id
+\par   5* GROUP BY d.name
+\par SQL> /
+\par 
+\par NAME            MIN(E.SALARY) MAX(E.SALARY) AVG(E.SALARY)
+\par ------------------ ------------- ------------- -------------
+\par Administration     1550          2500          2025
+\par Finance            1450          1450          1450
+\par Operations         825          1540     1144.7667
+\par Sales              874.5          1525     1379.2143
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora estamos fazendo um select na }{\b\fs24 VIEW}{\fs24  criada usando todas as colunas especificadas em sua criação veja que os dados trazidos são os mesmos da tabela }{\b\fs24 s_emp}{\fs24  e }{\b\fs24 s_dept}{\fs24  submetida em um select com join:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> EDIT
+\par Wrote file afiedt.buf
+\par   1  select NAME,MINSAL,MAXSAL,AVGSAL
+\par   2  FROM
+\par   3* DEPT_SUM_VU
+\par SQL> /
+\par 
+\par NAME                         MINSAL    MAXSAL    AVGSAL
+\par ------------------------- --------- --------- ---------
+\par Administration                 1550      2500      2025
+\par Finance                        1450      1450      1450
+\par Operations                      825      1540 1144.7667
+\par Sales                         874.5      1525 1379.2143
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos agora criando uma }{\b\fs24 VIEW}{\fs24  com a condição }{\b\fs24 WITH CHECK}{\fs24  }{\b\fs24 OPTION CONSTRAINT}{\fs24  que tem a finalidade de não permitir alteração na }{\b\fs24 VIEW}{\fs24  em relação a clausula WHERE.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> edit
+\par Wrote file afiedt.buf
+\par   1  create or replace VIEW empvu41
+\par   2  AS SELECT     *
+\par   3  FROM         s_emp
+\par   4  WHERE        dept_id = 41
+\par   5* WITH CHECK OPTION CONSTRAINT empvu41_ck
+\par SQL> /
+\par 
+\par View created.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Tentamos fazer uma alteração na }{\b\fs24 VIEW empvu41}{\fs24 , não será permitida a alteração nos moldes sugeridos abaixo ou seja a alteração no nr do departamento. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  UPDATE empvu41
+\par   2  SET DEPT_ID = 42
+\par   3  WHERE ID = 16;
+\par  UPDATE empvu41
+\par         *
+\par ERROR at line 1:
+\par ORA-01402: view WITH CHECK OPTION where-clause violation.
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Criando uma VIEW e determinando que ela seja somente de leitura.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> CREATE OR REPLACE VIEW empvu45
+\par   2    (id_number, employee, job)
+\par   3  AS SELECT id,last_name,title
+\par   4  FROM  S_EMP
+\par   5  WHERE   dept_id = 45
+\par   6  WITH READ ONLY;
+\par 
+\par View created.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Estamos tentando deletar registros da VIEW empvu45 só que ela foi criada com a opção }{\b\fs24 WITH READ ONLY}{\fs24 , ou seja somente leitura.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par SQL> DELETE FROM empvu45
+\par   2  WHERE ID_NUMBER = 10;
+\par DELETE FROM empvu45
+\par             *
+\par ERROR at line 1:
+\par ORA-01752: cannot delete from view without exactly one key-preserved table
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Para saber as }{\b\fs24 VIEWS}{\fs24  existentes vamos a }{\b\fs24 USER_VIEWS}{\fs24  que pertence ao dicionário de dados e então podemos pesquisar veja só:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> describe user_views;
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  VIEW_NAME                       NOT NULL VARCHAR2(30)
+\par  TEXT_LENGTH                              NUMBER
+\par  TEXT                                     LONG
+\par 
+\par -- selecionando as VIEWS existentes:
+\par 
+\par SQL> SELECT * FROM
+\par   2  user_views;
+\par 
+\par VIEW_NAME   TEXT_LENGTH TEXT
+\par -------------- ---------------------------------------------
+\par EMPVU41 194 SELECT"ID","LAST_NAME","FIRST_NAME","USE                                RID","START_DATE","COMMENTS","MANAG
+\par 
+\par EMPVU45   74 SELECT id,last_name,title
+\par              FROM  S_EMP
+\par              WHERE   dept_id = 45
+\par              WITH READ ONLY
+\par 
+\par 
+\par Para deletar uma }{\b\fs24 VIEW}{\fs24  usamos o cmdo }{\b\fs24 DROP}{\fs24 :
+\par Quando deletamos uma }{\b\fs24 VIEW}{\fs24  não alteramos em nada a tabela.
+\par 
+\par SQL> DROP VIEW EMPVU45 ;
+\par 
+\par View dropped.
+\par 
+\par 
+\par 
+\par }{\b\fs36 FINAL DE CAPÍTULO
+\par }{\fs24 \page Finalidade do capítulo é o uso da clausula }{\b\fs24 WHERE.
+\par }{\fs24 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 A clausula }{\b\fs24 where}{\fs24  tem a função de dar condições para o }{\b\fs24 select }{\fs24 onde especifica a pesquisa, neste primeiro exemplo temos um select somente no departamento numero 42.SQL> SELECT LAST_NAME, DEPT_ID,SALARY
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24   2  FROM S_EMP
+\par   3  WHERE DEPT_ID = 42;
+\par 
+\par LAST_NAME                   DEPT_ID    SALARY
+\par ------------------------- --------- ---------
+\par Menchu                           42      1250
+\par Nozaki                           42      1200
+\par Patel                            42       795
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Neste próximo caso vemos o exemplo de que para fazermos uma pesquisa, temos que colocar o nome ou numero a ser pesquisado como mesmo formato do que se encontra no banco, no caso abaixo ocorreu erro por que o nome colocado é diferente do que está no banco.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT FIRST_NAME, LAST_NAME, TITLE
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME = 'MAGEE';
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora com a correção do nome temos a pesquisa com sucesso.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT FIRST_NAME, LAST_NAME, TITLE
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME = 'Magee';
+\par 
+\par FIRST_NAME      LAST_NAME                 TITLE
+\par ----------------------------------- -------------------------
+\par Colin          Magee                     Sales Representative
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Usando a clausula }{\b\fs24 where}{\fs24  com o comando }{\b\fs24 between ... and ...}{\fs24 , que tem a finalidade  de trazer valores delimitados dentro de um determinado espaço, no exemplo abaixo o comando traz uma seleção que está entre 09-may-91 and 17-jun-91.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par SQL> SELECT FIRST_NAME,LAST_NAME, START_DATE
+\par   2  FROM S_EMP
+\par   3  WHERE START_DATE BETWEEN '09-MAY-91'
+\par   4  AND '17-JUN-91';
+\par 
+\par FIRST_NAME                LAST_NAME                 START_DAT
+\par ------------------------- ------------------------- ---------
+\par Midori                    Nagayama                  17-JUN-91
+\par Alexander                 Markarian                 26-MAY-91
+\par Sylvie                    Schwartz                  09-MAY-91
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos fazer um }{\b\fs24 desc}{\fs24  na tabela }{\b\fs24 s_dept}{\fs24 :
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> DESC S_DEPT;
+\par  Name                            Null?    Type
+\par  ------------------------------- -------- ----
+\par  ID                              NOT NULL NUMBER(7)
+\par  NAME                            NOT NULL VARCHAR2(25)
+\par  REGION_ID                                NUMBER(7)
+\par 
+\par 
+\par Agora vamos fazer uma seleção onde }{\b\fs24 region_id}{\fs24  seja (1,3) e  somente estes.
+\par  
+\par SQL> SELECT ID,NAME,REGION_ID
+\par   2  FROM S_DEPT
+\par   3  WHERE REGION_ID IN (1,3);
+\par 
+\par        ID NAME                      REGION_ID
+\par --------- ------------------------- ---------
+\par        10 Finance                           1
+\par        31 Sales                             1
+\par        33 Sales                             3
+\par        41 Operations                        1
+\par        43 Operations                        3
+\par        50 Administration                    1
+\par 
+\par 6 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo o uso  comando }{\b\fs24 null}{\fs24  na clausula }{\b\fs24 where}{\fs24 , especifica e traz o }{\b\fs24 s_customer}{\fs24  onde }{\b\fs24 sales_rep_id}{\fs24  for nulo ou seja onde o customer não tiver sales_rep_id. Mas neste exemplo abaixo não cumpre a finalidade, apesar de estar correto.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select ID,NAME,CREDIT_RATING
+\par   2  FROM S_CUSTOMER
+\par   3  WHERE SALES_REP_ID = NULL;
+\par 
+\par no rows selected
+\par 
+\par Forma errada de se pesquisar por um valor nulo:
+\par 
+\par SQL> SELECT ID,NAME,CREDIT_RATING
+\par   2  FROM S_CUSTOMER
+\par   3  WHERE SALES_REP_ID =' ';
+\par ERROR:
+\par ORA-01722: invalid number
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Veja a maneira correta de pesquisar usando a clausula }{\b\fs24 where }{\fs24 com a condição de campos nulos.
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL>  SELECT ID,NAME,CREDIT_RATING
+\par   2   FROM S_CUSTOMER
+\par   3  WHERE SALES_REP_ID IS NULL;
+\par 
+\par       ID  NAME                     CREDIT_RA
+\par --------- ------------------ ---------
+\par       207 Sweet Rock Sports          GOOD
+\par /
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 O exemplo abaixo demostra o uso do comando }{\b\fs24 and}{\fs24  dentro da clausula}{\b\fs24  where}{\fs24 , onde  dentro da tabela }{\b\fs24 s_emp}{\fs24  será pesquisado os registros que sejam do departamento }{\b\fs24 41}{\fs24  e com o nome do }{\b\fs24 title}{\fs24  }{\b\fs24 " stock clerk".}{\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME,SALARY,DEPT_ID,TITLE
+\par   2  FROM S_EMP
+\par   3  WHERE DEPT_ID = 41
+\par   4  AND TITLE = 'Stock Clerk';
+\par LAST_NAME                    SALARY   DEPT_ID TITLE
+\par ----------------------- --------- --------- ----------------
+\par Maduro                         1400        41 Stock Clerk
+\par Smith                           940        41 Stock Clerk
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par Este exemplo mostra o uso do comando }{\b\fs24 "OR"}{\fs24  dentro da clausula }{\b\fs24 WHERE}{\fs24  onde no caso a pesquisa é feita na tabela }{\b\fs24 "S_EMP"}{\fs24  trazendo todos os registros que contenham o }{\b\fs24 dept_id }{\fs24 igual a }{\b\fs24 41}{\fs24  como também todos aqueles que possuam o }{\b\fs24 title}{\fs24  igual a }{\b\fs24 "Stock Clerk"}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos 
+\par SQL> SELECT LAST_NAME,SALARY,DEPT_ID,TITLE
+\par   2  FROM S_EMP
+\par   3  where DEPT_ID = 41
+\par   4  OR  TITLE = 'Stock Clerk';
+\par 
+\par LAST_NAME                    SALARY   DEPT_ID TITLE
+\par ------------------------- --------- --------- -------------------------
+\par Ngao                           1450        41 VP, Operations
+\par Urguhart                       1200        41 Warehouse Manager
+\par Maduro                         1400        41 Stock Clerk
+\par Smith                           940        41 Stock Clerk
+\par Nozaki                         1200        42 Stock Clerk
+\par Patel                           795        42 Stock Clerk
+\par Newman                          750        43 Stock Clerk
+\par Markarian                       850        43 Stock Clerk
+\par Chang                           800        44 Stock Clerk
+\par Patel                           795        34 Stock Clerk
+\par Dancs                           860        45 Stock Clerk
+\par Schwartz                       1100        45 Stock Clerk
+\par 
+\par 12 rows selected.
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Nos exemplos abaixo temos como usar o }{\b\fs24 AND}{\fs24  e o }{\b\fs24 OR}{\fs24  juntos dentro de uma clausula }{\b\fs24 where}{\fs24 , no primeiro exemplo o select traz dentro da tabela s_emp todos registros onde o salário seja maior ou igual a 1000 mas somente no departamento 44 e traz todos os registros do departamento 42, independente da condição de salário.   
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Vamos ao exemplo:
+\par 
+\par SQL> select last_name,salary,dept_id
+\par   2  from s_emp
+\par   3  where salary >= 1000
+\par   4  and dept_id = 44
+\par   5  or dept_id = 42;
+\par 
+\par LAST_NAME                    SALARY   DEPT_ID
+\par ------------------------- --------- ---------
+\par Menchu                         1250        42
+\par Catchpole                      1300        44
+\par Nozaki                         1200        42
+\par Patel                           795        42
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Com o uso do parênteses nós podemos no exemplo abaixo selecionar todos os registros do departamento 44 e 42 que recebam salário maior ou igual a 1000, diferente do exemplo anterior, portanto o uso do parênteses determina que a condição da clausula }{\b\fs24 WHERE}{\fs24  do salário sirva par os dois.
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select last_name,salary,dept_id
+\par   2  from s_emp
+\par   3  where salary >= 1000
+\par   4  and (dept_id = 44 
+\par   5  or dept_id = 42);
+\par 
+\par LAST_NAME                    SALARY   DEPT_ID
+\par ------------------------- --------- ---------
+\par Menchu                         1250        42
+\par Catchpole                      1300        44
+\par Nozaki                         1200        42
+\par }{\b\fs36 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Na clausula }{\b\fs24 where}{\fs24  usamos o operador }{\b\fs24 like}{\fs24  que serve no geral para trazer valores aproximados ou parecidos na pesquisa, podemos ver abaixo os exemplos: 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par No  primeiro caso abaixo o operador }{\b\fs24 like}{\fs24  esta pesquisando o }{\b\fs24 last_name}{\fs24  da tabela }{\b\fs24 s_emp}{\fs24  que se inicia com a letra (m).
+\par 
+\par SQL> SELECT LAST_NAME
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME LIKE 'M%'
+\par   4  ;
+\par 
+\par LAST_NAME
+\par -------------------------
+\par Menchu
+\par Magee
+\par Maduro
+\par Markarian
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora no exemplo abaixo o comando }{\b\fs24 like}{\fs24  faz uma pesquisa no }{\b\fs24 start_date}{\fs24  da tabela }{\b\fs24 s_emp}{\fs24  onde a data termina em }{\b\fs24 91}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME,START_DATE
+\par   2  FROM S_EMP
+\par   3  WHERE START_DATE LIKE '%91';
+\par 
+\par LAST_NAME                 START_DAT
+\par ------------------------- ---------
+\par Nagayama                  17-JUN-91
+\par Urguhart                  18-JAN-91
+\par Havel                     27-FEB-91
+\par Sedeghi                   18-FEB-91
+\par Dumas                     09-OCT-91
+\par Nozaki                    09-FEB-91
+\par Patel                     06-AUG-91
+\par Newman                    21-JUL-91
+\par Markarian                 26-MAY-91
+\par Dancs                     17-MAR-91
+\par Schwartz                  09-MAY-91
+\par 
+\par 11 rows selected.
+\par 
+\par No exemplo abaixo é feito uma seleção na tabela s_emp onde a segunda letra do nome começa com a, não deu certo no caso abaixo porque a letra digitada é maiúscula e na tabela a ser pesquisada as segundas letras são  minúsculas.
+\par 
+\par SQL> SELECT LAST_NAME,START_DATE
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME LIKE '_A%';
+\par 
+\par no rows selected
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Mas neste agora temos a pesquisa concluída satisfazendo a condição da segunda letra da clausula where, observe o uso do hífen.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME,START_DATE
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME LIKE '_a%';
+\par 
+\par LAST_NAME                 START_DAT
+\par ------------------------- ---------
+\par Nagayama                  17-JUN-91
+\par Catchpole                 09-FEB-92
+\par Havel                     27-FEB-91
+\par Magee                     14-MAY-90
+\par Maduro                    07-FEB-92
+\par Patel                     06-AUG-91
+\par Markarian                 26-MAY-91
+\par Patel                     17-OCT-90
+\par Dancs                     17-MAR-91
+\par 
+\par 9 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Quando optarmos por trazer somente os dados onde não contenham uma letra qualquer, usamos no comando }{\b\fs24 notlike. }{\fs24 A seguinte expressão : }{\b\fs24 NOT LIKE '%A%'}{\fs24 , no exemplo abaixo não traria o resultado desejado, porque as letras na tabela são minúsculas "a" e a utilizada foi maiúscula "A".
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME NOT LIKE '%A%';
+\par 
+\par LAST_NAME
+\par -------------------------
+\par Velasquez
+\par Ngao
+\par Nagayama
+\par Quick-To-See
+\par Ropeburn
+\par Urguhart
+\par Menchu
+\par Biri
+\par Catchpole
+\par Havel
+\par 25 rows selected.
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora nós estamos usando uma letra que está no mesmo formato dos dados na tabela e então a execução do }{\b\fs24 select}{\fs24  trará todos os nomes da tabela }{\b\fs24 s_emp}{\fs24  que não tenham a letra }{\b\fs24 "a"}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao exemplo:
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME
+\par   2  FROM S_EMP
+\par   3  WHERE LAST_NAME NOT LIKE '%a%';
+\par 
+\par LAST_NAME
+\par -------------------------
+\par Quick-To-See
+\par Ropeburn
+\par Menchu
+\par Biri
+\par Giljum
+\par Sedeghi
+\par Nguyen
+\par Smith
+\par 
+\par 8 rows selected.
+\par 
+\par 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 No exemplo abaixo  estamos selecionando somente funcionários da tabela }{\b\fs24 s_emp}{\fs24 , que receberam comissão, portanto na clausula }{\b\fs24 where}{\fs24  temos o comando condicional }{\b\fs24 "is not null"}{\fs24 .
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, TITLE, COMMISSION_PCT
+\par   2  FROM S_EMP
+\par   3  WHERE COMMISSION_PCT IS NOT NULL;
+\par 
+\par LAST_NAME            TITLE                     COMMISSION_PCT
+\par ------------------------------------------- --------------
+\par Magee                Sales Representative                  10
+\par Giljum               Sales Representative                12.5
+\par Sedeghi              Sales Representative                  10
+\par Nguyen               Sales Representative                  15
+\par Dumas                Sales Representative                17.5
+\par 
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par Agora queremos todos os funcionários que não recebem comissão ou seja que possuam o campo }{\b\fs24 COMMISSION_PCT}{\fs24  nulo.
+\par 
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> SELECT LAST_NAME, TITLE, COMMISSION_PCT
+\par   2  FROM S_EMP
+\par   3  WHERE COMMISSION_PCT IS NULL;
+\par 
+\par LAST_NAME           TITLE                     COMMISSION_PCT
+\par --------------- ------------------------- --------------
+\par Velasquez            President
+\par Ngao                 VP, Operations
+\par Nagayama             VP, Sales
+\par Quick-To-See         VP, Finance
+\par Ropeburn             VP, Administration
+\par Urguhart             Warehouse Manager
+\par Menchu               Warehouse Manager
+\par Biri                 Warehouse Manager
+\par Catchpole            Warehouse Manager
+\par Havel                Warehouse Manager
+\par Maduro               Stock Clerk
+\par Smith                Stock Clerk
+\par Nozaki               Stock Clerk
+\par 
+\par 20 rows selected.
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs24 FINAL DE CAPÍTULO
+\par }\pard \s15\fi708\nowidctlpar\widctlpar\adjustright {\fs24 \page }{\fs24\ul\cf2 O Usuário inserindo valores em tempo de execução:
+\par O uso do \lquote &\rquote  e do \lquote SET OFF\rquote , \lquote  SET VRERIFY ON\rquote  E ETC.
+\par }{\fs24 
+\par 
+\par 
+\par A finalidade dos exemplos abaixo é demostrar como fazer quando queremos que o usuário entre com valores, em tempo de execução. É sempre bom lembrar que estamos no SQL Plus e os artifícios de entrada não são tão amigáveis, mas servem para que em uma programação posterior, possamos usá\endash los para execução. 
+\par Primeiramente  o usuário entra com dados em tempo de execução, para em seguida ser executada uma pesquisa através de um cmdo sql.
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vemos o uso do }{\b\fs24 "&"}{\fs24  para que o usuário entre com dados. No exemplo abaixo temos um pedido de entrada de um numero por isso é que  o }{\b\fs24 numero_do_dept}{\fs24  não está entre aspas.
+\par }\pard \s15\fi851\nowidctlpar\widctlpar\adjustright {\fs24 Podemos notar que aparece o }{\b\fs24 \ldblquote old\rdblquote }{\fs24  valor e o }{\b\fs24 \ldblquote new\rdblquote }{\fs24  valor isso é devido ao  cmdo }{\b\fs24 set verify on}{\fs24 , se quisermos que não apareça, deve ser usado o  }{\b\fs24 set verify off}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24  
+\par Vamos ao Exemplo: No exemplo queremos selecionar o id,last_name,salary da tabela s_emp onde o dept_id seja igual ao valor digitado pelo usuário através }{\b\fs24 &numero_do_dept,}{\fs24  que no exemplo será o nr 31.
+\par SQL> set verify onSQL> select id,last_name,salary  2  from   s_emp  3  where  dept_id=&numero_do_dept;
+\par Enter value for numero_do_dept: 31old   3: where  dept_id=&numero_do_deptnew   3: where  dept_id=31       ID LAST_NAME                    SALARY
+\par --------- ------------------------- ---------
+\par         3 Nagayama                       1400
+\par        11 Magee                          1400
+\par 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Agora não aparecerá o new e old valor por causa do }{\b\fs24 SET VERIFY OFF}{\fs24 .
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> set verify off
+\par SQL> select id,last_name,salary
+\par   2  from   s_emp
+\par   3  where  dept_id=&numero_do_dept;
+\par Enter value for numero_do_dept: 31       ID LAST_NAME                    SALARY--------- ------------------------- ---------        3 Nagayama                       1400
+\par        11 Magee                          1400
+\par }\pard \s15\fi851\nowidctlpar\widctlpar\adjustright {\fs24 
+\par Teremos um exemplo de como  usuário pode entrar com dados quer seja do tipo caracter ou numérico, note que há o uso das aspas, temos que ter em mente que o formato a ser digitado especificamente no exemplo abaixo tem que ser  idêntico ao que está na tabela, com maiúsculas e minúsculas pois não estamos usando nenhum comando para fazer a conversão.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo: estamos selecionando id,last_name,salary da tabela s_emp onde o campo da coluna title seja exatamente igual ao nome digitado pelo usuário pela a opção }{\b\fs24 \lquote &job_title'
+\par 
+\par }{\fs24 SQL> select id,last_name,salary
+\par   2  from s_emp
+\par   3  where title ='&job_title';
+\par 
+\par Enter value for job_title: Stock Clerk
+\par 
+\par        ID LAST_NAME                    SALARY
+\par --------- ------------------------- ---------
+\par        16 Maduro                         1400
+\par        17 Smith                           940
+\par        18 Nozaki                         1200
+\par        19 Patel                           795
+\par        20 Newman                          750
+\par        21 Markarian                       850
+\par        22 Chang                           800
+\par        23 Patel                           795
+\par        24 Dancs                           860
+\par        25 Schwartz                       1100
+\par 
+\par 10 rows selected.
+\par 
+\par }\pard \s15\fi851\nowidctlpar\widctlpar\adjustright {\fs24 Agora vamos ver como que o usuário poderá entrar com o nome da coluna e com a condição de pesquisa que ele deseja que seja estabelecida na cláusula }{\b\fs24 WHERE}{\fs24 . Neste caso temos um exemplo onde é requerida a entrada de um dado numérico.
+\par 
+\par Vamos ao Exemplo: estamos selecionando o id, uma coluna sugerida pelo usuário(logo que exista), referente a tabela s_emp e como também definindo uma condição para tal pesquisa.SQL> select id,&nome_coluna  2  from s_emp  3  where &condição;
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 Enter value for nome_coluna: LAST_NAME      
+\par Enter value for condição:  SALARY > 100
+\par 
+\par        ID LAST_NAME
+\par --------- -------------------------
+\par         1 Velasquez
+\par         2 Ngao
+\par         3 Nagayama
+\par         4 Quick-To-See
+\par         5 Ropeburn
+\par         6 Urguhart
+\par         7 Menchu
+\par         8 Biri
+\par }\pard \s15\fi851\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par Outro exemplo em que o usuário entra com o valor da coluna e da condição }{\b\fs24 WHERE}{\fs24 .   
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SQL> select id,&nome_coluna  2  from  s_ord  3  where &condição;
+\par Enter value for nome_coluna: date_orderedEnter value for condição: total>30000
+\par 
+\par        ID DATE_ORDE
+\par --------- ---------
+\par       100 31-AUG-92
+\par       104 03-SEP-92
+\par       107 07-SEP-92
+\par       108 07-SEP-92
+\par       109 08-SEP-92
+\par        97 28-AUG-92
+\par 
+\par 6 rows selected.
+\par 
+\par }{\fs24\ul\cf2 Construindo  um script usando as opções para que o usuário possa entrar com dados e como também  mostrar em tela somente o prompt. 
+\par }\pard \s15\qj\fi993\nowidctlpar\widctlpar\adjustright {\fs24 O cmdo}{\b\fs24  set echo off }{\fs24 serve para que em tempo de execução não se exiba os comandos do sql. Já o }{\b\fs24 set echo on}{\fs24  serve  para retornar a forma anterior.
+\par }\pard \s15\qj\fi851\nowidctlpar\widctlpar\adjustright {\fs24  O cmdo }{\b\fs24 accept}{\fs24  serve para preparar um prompt para receber um valor.
+\par  Neste exemplo também temos a criação de uma variável v_name que recebe valores.
+\par }\pard \s15\qj\fi993\nowidctlpar\widctlpar\adjustright {\fs24 Estamos preparando o ambiente para receber valores que serão armazenados dentro de uma variável, para após isto, serem feitas  comparações dentro  da cláusula }{\b\fs24 where}{\fs24 .
+\par }\pard \s15\qj\fi851\nowidctlpar\widctlpar\adjustright {\fs24 Estamos usando duas tabelas s_dept e s_region, o }{\b\fs24 and}{\fs24  é uma função onde complementa a cláusula }{\b\fs24 where}{\fs24 , e o }{\b\fs24 upper}{\fs24  no dpt.name está passando o conteúdo do nome do dept
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\fs24 para maiúsculo para que seja efetuada a comparação com o nome digitado pelo o usuário que por sua vez recebe um }{\b\fs24 upper}{\fs24  que o transforma em maiúsculo, essa alternativa é feita 
+\par porque não sabemos qual é o formato do dado na tabela. 
+\par   
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\fi851\nowidctlpar\widctlpar\adjustright {\fs24 Vamos ao Exemplo:
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 SET ECHO OFF
+\par ACCEPT V_NAME PROMPT 'DÊ O NOME DO DEPARTAMENTO:'
+\par SELECT DPT.NAME, REG.ID, REG.NAME " NOME DA REGIÃO"
+\par FROM S_DEPT DPT, S_REGION REG
+\par WHERE DPT.REGION_ID = REG.ID -- está fazendo o join entre as tabelas
+\par AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%')
+\par /
+\par SET ECHO ON
+\par 
+\par }\pard \s15\qj\fi851\nowidctlpar\widctlpar\adjustright {\fs24 Como estamos gerando um SCRIPT os comandos devem ficar guardados dentro de um arquivo que possua a extensão *.SQL e preparado da forma acima. Uma vez no SQL se desejarmos executar o nosso SCRIPT temos que seguir o procedimento descrito abaixo, usando }{\b\fs24 "@"}{\fs24  e o nome do arquivo, ou }{\b\fs24 " START"}{\fs24  e o nome do arquivo. 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par SET ECHO ON
+\par SQL> @TEST.SQL
+\par SQL> SET ECHO OFF
+\par DÊ O NOME DO DEPARTAMENTO:sales
+\par old   4: AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%')
+\par new   4: AND UPPER(DPT.NAME) LIKE UPPER('%sales%')
+\par 
+\par NAME               ID  NOME DA REGIÃO
+\par ---- --------- ---------------------------------------------
+\par Sales               1 North America
+\par Sales               2 South America
+\par Sales               3 Africa / Middle East
+\par Sales               4 Ásia
+\par Sales               5 Europe
+\par 
+\par Podemos notar que no exemplo anterior foi mostrado o }{\b\fs24 OLD}{\fs24  e o }{\b\fs24 NEW}{\fs24  valores da variável, para que não mostre, temos que usar o }{\b\fs24 SET VERIFY OOF,}{\fs24  veja abaixo:
+\par 
+\par SET VERIFY OFF
+\par SET ECHO OFF
+\par ACCEPT V_NAME PROMPT 'DÊ O NOME DO DEPARTAMENTO:'
+\par SELECT DPT.NAME, REG.ID, REG.NAME " NOME DA REGIÃO"
+\par FROM S_DEPT DPT, S_REGION REG
+\par WHERE DPT.REGION_ID = REG.ID
+\par AND UPPER(DPT.NAME) LIKE UPPER('%&V_NAME%')
+\par /
+\par SET ECHO ON
+\par 
+\par SQL> START TEST.SQL
+\par SQL> SET VERIFY OFF
+\par SQL> SET ECHO OFF
+\par DÊ O NOME DO DEPARTAMENTO:SALES
+\par 
+\par NAME                  ID  NOME DA REGIÃO
+\par -------------------------------------------------------------
+\par Sales                  1 North America
+\par Sales                  2 South America
+\par Sales                  3 Africa / Middle East
+\par Sales                  4 Ásia
+\par Sales                  5 Europe
+\par 
+\par Input truncated to 11 characters
+\par 
+\par 
+\par 
+\par 
+\par \page }{\b\fs36 FINAL DE CAPÍTULO}{\fs24 \page 
+\par }\pard \s15\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Finalidade do capítulo é tratar sobre exemplos diversos.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par }\pard \s15\qj\fi709\nowidctlpar\widctlpar\adjustright {\fs24 Vamos descrever o uso dos cmdos abaixo:}{\b\fs24 Concat}{\fs24 , usado para concatenar  o conteúdo de last_name mais o conteúdo de title jogando dentro de " vice presidência" }{\b\fs24 apper}{\fs24  está transformando o conteúdo de last_name em maiúsculo, o cmdo }{\b\fs24 substr}{\fs24 (title,3) reduz as três primeiras  posições do conteúdo da coluna title que no caso é "vp", o cmdo }{\b\fs24 like}{\fs24  pesquisa algo parecido com "vp" = 'vp%'.
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par 
+\par 
+\par SQL>  SELECT CONCAT(UPPER(last_name),
+\par   2   substr(title,3)) " vice presidência"
+\par   3  from s_emp
+\par   4   where title LIKE 'VP%';
+\par 
+\par  vice presidência
+\par ------------------------------------------------
+\par NGAO, Operations
+\par NAGAYAMA, Sales
+\par QUICK-TO-SEE, Finance
+\par ROPEBURN, Administration
+\par 
+\par 
+\par Para colocarmos um valor caracter dentro de um campo que seja
+\par number, devemos usar a conversão }{\b\fs24 " TO_CHAR"}{\fs24 , funções e cmdos usados no exemplo abaixo:
+\par }{\b\fs24 "NVL"}{\fs24  usado para manipulação de valores nulos.
+\par }{\b\fs24 "TO_CHAR"}{\fs24  usado no caso para a conversão de "maneger_id" que 
+\par tem um formato numérico, a fim de prepará-lo para receber um valor  que não é numérico.
+\par }{\b\fs24 "is null"}{\fs24  função que indica o valor nulo na coluna.
+\par 
+\par 
+\par SQL> select last_name,
+\par   2   nvl(to_char(manager_id),'não tem gerente')
+\par   3   from s_emp
+\par   4  where manager_id is null;
+\par 
+\par LAST_NAME    NVL(TO_CHAR(MANAGER_ID),'NÃOTEMGERENTE')
+\par --------------- ----------------------------------------
+\par Velasquez        não tem gerente
+\par 
+\par 
+\par 
+\par 
+\par Comandos ultilizados no exemplo abaixo:
+\par 
+\par }\pard \s15\qj\nowidctlpar\widctlpar\adjustright {\b\fs24 "TO_CHAR"}{\fs24  neste caso com a função de fazer a conversão da data default do sistema para a data desejada, onde os formatos são colocados da seguinte forma e com as seguintes funções: }{\b\fs24 Day}{\fs24  = dia por extenso, }{\b\fs24 Month}{\fs24  = nome do mês por extenso, }{\b\fs24 ddth}{\fs24  nome do dia em forma de numeral, }{\b\fs24 YYYY}{\fs24  = ano no padrão numeral, o cmdo }{\b\fs24 "NEXT DAY}{\fs24  ' tem a função de ir para uma próxima data que no caso faz referencia a próxima sexta feira.}{\b\fs24 ( next_day,'friday')}{\fs24 .O cmdo }{\b\fs24 "ADD_MONTHS"}{\fs24  faz a soma de 6 meses a }{\b\fs24 data_ordered}{\fs24  (date_ordered,"6") o seis faz referencia a seis meses.\tab   
+\par 
+\par }\pard \s15\nowidctlpar\widctlpar\adjustright {\fs24 
+\par SQL> select to_char(next_day(add_months
+\par   2                (date_ordered,6),'friday'),
+\par   3                'day,month ddth,yyyy') " próxima sexta daqui a 6 meses"
+\par   4  from s_ord 
+\par   5  order by date_ordered;
+\par 
+\par  próxima sexta daqui a 6 meses
+\par -------------------------------------------------------------
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     05th,1993
+\par friday   ,march     12th,1993
+\par friday   ,march     12th,1993
+\par friday   ,march     12th,1993
+\par friday   ,march     12th,1993
+\par friday   ,march     12th,1993
+\par friday   ,march     12th,1993
+\par 
+\par 16 rows selected.
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\lang1046\cgrid {\fs24 \page }{\f2\fs24 
+\par }}
